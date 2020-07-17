@@ -1,0 +1,23 @@
+
+
+
+
+#序列(list 相当于是python里面的列表（list）)，下面有数字 小数他会自动转换的
+- a
+- b
+- c
+- d
+- 123
+- 12.34
+- 0
+
+- user: admin
+  psw: "123456"
+
+
+- user: admin1
+  psw: "123456"
+  mail: 123@qq.com
+  bool: true
+  bool2: false
+  none: ~

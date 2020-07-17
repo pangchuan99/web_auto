@@ -1,0 +1,25 @@
+
+
+
+
+- config:
+    name: 用例描述：demo
+- test:
+    name: 测试步骤,或者步骤描述
+    request:
+       url: http://www.httpbin.org/get
+       method: GET
+    validate:
+    - eq: [status_code,200]
+
+
+
+#- config:
+#      name: 用例描述demo
+#- test:
+#      name: 测试用例，或者步骤，描述
+#      request:
+#         url: http://www.httpbin.org/get
+#         method: GET
+#      validate:
+#      - eq: [status_code, 200]

@@ -1,0 +1,1517 @@
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> - TestReport</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      color: #333;
+      margin: 0 auto;
+      width: 960px;
+    }
+    #summary {
+      width: 960px;
+      margin-bottom: 20px;
+    }
+    #summary th {
+      background-color: skyblue;
+      padding: 5px 12px;
+    }
+    #summary td {
+      background-color: lightblue;
+      text-align: center;
+      padding: 4px 8px;
+    }
+    .details {
+      width: 960px;
+      margin-bottom: 20px;
+    }
+    .details th {
+      background-color: skyblue;
+      padding: 5px 12px;
+    }
+    .details tr .passed {
+      background-color: lightgreen;
+    }
+    .details tr .failed {
+      background-color: red;
+    }
+    .details tr .unchecked {
+      background-color: gray;
+    }
+    .details td {
+      background-color: lightblue;
+      padding: 5px 12px;
+    }
+    .details .detail {
+      background-color: lightgrey;
+      font-size: smaller;
+      padding: 5px 10px;
+      text-align: center;
+    }
+    .details .success {
+      background-color: greenyellow;
+    }
+    .details .error {
+      background-color: red;
+    }
+    .details .failure {
+      background-color: salmon;
+    }
+    .details .skipped {
+      background-color: gray;
+    }
+
+    .button {
+      font-size: 1em;
+      padding: 6px;
+      width: 4em;
+      text-align: center;
+      background-color: #06d85f;
+      border-radius: 20px/50px;
+      cursor: pointer;
+      transition: all 0.3s ease-out;
+    }
+    a.button{
+      color: gray;
+      text-decoration: none;
+    }
+    .button:hover {
+      background: #2cffbd;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7);
+      transition: opacity 500ms;
+      visibility: hidden;
+      opacity: 0;
+    }
+    .overlay:target {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .popup {
+      margin: 70px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      width: 50%;
+      position: relative;
+      transition: all 3s ease-in-out;
+    }
+
+    .popup h2 {
+      margin-top: 0;
+      color: #333;
+      font-family: Tahoma, Arial, sans-serif;
+    }
+    .popup .close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      transition: all 200ms;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #333;
+    }
+    .popup .close:hover {
+      color: #06d85f;
+    }
+    .popup .content {
+      max-height: 80%;
+      overflow: auto;
+      text-align: left;
+    }
+
+    @media screen and (max-width: 700px) {
+      .box {
+        width: 70%;
+      }
+      .popup {
+        width: 70%;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Test Report: </h1>
+
+  <h2>Summary</h2>
+  <table id="summary">
+
+    <tr>
+      <th>START AT</th>
+      <td colspan="4">2020-05-26 21:36:22</td>
+    </tr>
+    <tr>
+      <th>DURATION</th>
+      <td colspan="4">0.467 seconds</td>
+    </tr>
+    <tr>
+      <th>PLATFORM</th>
+      <td>HttpRunner 1.5.8 </td>
+      <td>CPython 3.8.1 </td>
+      <td colspan="2">Windows-10-10.0.18362-SP0</td>
+    </tr>
+    <tr>
+      <th>TOTAL</th>
+      <th>SUCCESS</th>
+      <th>FAILED</th>
+      <th>ERROR</th>
+      <th>SKIPPED</th>
+      <!-- <th>ExpectedFailure</th>
+      <th>UnexpectedSuccess</th> -->
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <!-- <td>0</td>
+      <td>0</td> -->
+    </tr>
+  </table>
+
+  <h2>Details</h2>
+
+  
+  
+  <h3>Web网站登录</h3>
+  <table id="suite_1" class="details">
+    <tr>
+      <th>base_url</th>
+      <td colspan="2">http://49.235.92.12:6009</td>
+      <th colspan="2" class="detail">
+        <a class="button" href="#suite_output_1">parameters & output</a>
+        <div id="suite_output_1" class="overlay">
+            <div class="popup">
+                <h2>Parameters and Output</h2>
+                <a class="close" href="#suite_1">&times;</a>
+                <div class="content">
+                  <div style="overflow: auto">
+                      <table>
+                        <tr>
+                          <th>variables</th>
+                          <th>output</th>
+                        </tr>
+                        
+                      </table>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>TOTAL: 2</td>
+      <td>SUCCESS: 2</td>
+      <td>FAILED: 0</td>
+      <td>ERROR: 0</td>
+      <td>SKIPPED: 0</td>
+    </tr>
+    <tr>
+      <th>Status</th>
+      <th colspan="2">Name</th>
+      <th>Response Time</th>
+      <th>Detail</th>
+    </tr>
+
+    
+    
+    <tr id="record_1_1">
+      <th class="success" style="width:5em;">success</td>
+      <td colspan="2">web登录---get</td>
+      <td style="text-align:center;width:6em;">110.02 ms</td>
+      <td class="detail">
+
+        <a class="button" href="#popup_log_1_1">log</a>
+        <div id="popup_log_1_1" class="overlay">
+          <div class="popup">
+            <h2>Request and Response data</h2>
+            <a class="close" href="#record_1_1">&times;</a>
+
+            <div class="content">
+              <h3>Request:</h3>
+              <div style="overflow: auto">
+                <table>
+                  
+                    <tr>
+                      <th>url</th>
+                      <td>
+                        
+                          http://49.235.92.12:6009/admin/login/
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>method</th>
+                      <td>
+                        
+                          GET
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>headers</th>
+                      <td>
+                        
+                          
+                          <div>
+                            <strong>User-Agent</strong>: python-requests/2.22.0
+                          </div>
+                          
+                          <div>
+                            <strong>Accept-Encoding</strong>: gzip, deflate
+                          </div>
+                          
+                          <div>
+                            <strong>Accept</strong>: */*
+                          </div>
+                          
+                          <div>
+                            <strong>Connection</strong>: keep-alive
+                          </div>
+                          
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>start_timestamp</th>
+                      <td>
+                        
+                          1590500182.437075
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>body</th>
+                      <td>
+                        
+                          None
+                        
+                      </td>
+                    </tr>
+                  
+                </table>
+              </div>
+
+              <h3>Response:</h3>
+              <div style="overflow: auto">
+                <table>
+                    
+                      <tr>
+                        <th>status_code</th>
+                        <td>
+                          
+                            200
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>headers</th>
+                        <td>
+                          
+                            
+                            <div>
+                              <strong>User-Agent</strong>: python-requests/2.22.0
+                            </div>
+                            
+                            <div>
+                              <strong>Accept-Encoding</strong>: gzip, deflate
+                            </div>
+                            
+                            <div>
+                              <strong>Accept</strong>: */*
+                            </div>
+                            
+                            <div>
+                              <strong>Connection</strong>: keep-alive
+                            </div>
+                            
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>content_size</th>
+                        <td>
+                          
+                            1842
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>response_time_ms</th>
+                        <td>
+                          
+                            110.02
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>elapsed_ms</th>
+                        <td>
+                          
+                            106.756
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>encoding</th>
+                        <td>
+                          
+                            utf-8
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>content</th>
+                        <td>
+                          
+                            &lt;!DOCTYPE html&gt;
+
+&lt;html lang=&#34;en-us&#34; &gt;
+&lt;head&gt;
+&lt;title&gt;Log in | Django site admin&lt;/title&gt;
+&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;/static/admin/css/base.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;/static/admin/css/login.css&#34; /&gt;
+
+
+
+
+
+    &lt;meta name=&#34;viewport&#34; content=&#34;user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0&#34;&gt;
+    &lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;/static/admin/css/responsive.css&#34; /&gt;
+    
+
+&lt;meta name=&#34;robots&#34; content=&#34;NONE,NOARCHIVE&#34; /&gt;
+&lt;/head&gt;
+
+
+&lt;body class=&#34; login&#34;
+  data-admin-utc-offset=&#34;0&#34;&gt;
+
+&lt;!-- Container --&gt;
+&lt;div id=&#34;container&#34;&gt;
+
+    
+    &lt;!-- Header --&gt;
+    &lt;div id=&#34;header&#34;&gt;
+        &lt;div id=&#34;branding&#34;&gt;
+        
+&lt;h1 id=&#34;site-name&#34;&gt;&lt;a href=&#34;/admin/&#34;&gt;Django administration&lt;/a&gt;&lt;/h1&gt;
+
+        &lt;/div&gt;
+        
+        
+    &lt;/div&gt;
+    &lt;!-- END Header --&gt;
+    
+    
+
+    
+        
+    
+
+    &lt;!-- Content --&gt;
+    &lt;div id=&#34;content&#34; class=&#34;colM&#34;&gt;
+        
+        
+        
+
+
+
+
+&lt;div id=&#34;content-main&#34;&gt;
+
+
+
+&lt;form action=&#34;/admin/login/&#34; method=&#34;post&#34; id=&#34;login-form&#34;&gt;&lt;input type=&#39;hidden&#39; name=&#39;csrfmiddlewaretoken&#39; value=&#39;2AK5Jn8lnb37vhLOUqbO1VCIQ1sJA7BikP5SW4Hc48q3mj7tBGzhBgGN8DSu85TD&#39; /&gt;
+  &lt;div class=&#34;form-row&#34;&gt;
+    
+    &lt;label class=&#34;required&#34; for=&#34;id_username&#34;&gt;Username:&lt;/label&gt; &lt;input type=&#34;text&#34; name=&#34;username&#34; autofocus maxlength=&#34;254&#34; required id=&#34;id_username&#34; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;form-row&#34;&gt;
+    
+    &lt;label class=&#34;required&#34; for=&#34;id_password&#34;&gt;Password:&lt;/label&gt; &lt;input type=&#34;password&#34; name=&#34;password&#34; required id=&#34;id_password&#34; /&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;next&#34; value=&#34;/admin/&#34; /&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;div class=&#34;submit-row&#34;&gt;
+    &lt;label&gt;&amp;nbsp;&lt;/label&gt;&lt;input type=&#34;submit&#34; value=&#34;Log in&#34; /&gt;
+  &lt;/div&gt;
+&lt;/form&gt;
+
+&lt;/div&gt;
+
+        
+        &lt;br class=&#34;clear&#34; /&gt;
+    &lt;/div&gt;
+    &lt;!-- END Content --&gt;
+
+    &lt;div id=&#34;footer&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- END Container --&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>content_type</th>
+                        <td>
+                          
+                            
+                              <pre></pre>
+                            
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>ok</th>
+                        <td>
+                          
+                            True
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>url</th>
+                        <td>
+                          
+                            http://49.235.92.12:6009/admin/login/
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>reason</th>
+                        <td>
+                          
+                            OK
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>cookies</th>
+                        <td>
+                          
+                            <RequestsCookieJar[<Cookie csrftoken=BlnfWAlM1XGRfUBRrXsDi8h1WN7TvuxnTAI29hUDIU3N6WXw8dQ6Stl6epxE3sPI for 49.235.92.12/>]>
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>text</th>
+                        <td>
+                          
+                            <!DOCTYPE html>
+
+<html lang="en-us" >
+<head>
+<title>Log in | Django site admin</title>
+<link rel="stylesheet" type="text/css" href="/static/admin/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/static/admin/css/login.css" />
+
+
+
+
+
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/responsive.css" />
+    
+
+<meta name="robots" content="NONE,NOARCHIVE" />
+</head>
+
+
+<body class=" login"
+  data-admin-utc-offset="0">
+
+<!-- Container -->
+<div id="container">
+
+    
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+        
+<h1 id="site-name"><a href="/admin/">Django administration</a></h1>
+
+        </div>
+        
+        
+    </div>
+    <!-- END Header -->
+    
+    
+
+    
+        
+    
+
+    <!-- Content -->
+    <div id="content" class="colM">
+        
+        
+        
+
+
+
+
+<div id="content-main">
+
+
+
+<form action="/admin/login/" method="post" id="login-form"><input type='hidden' name='csrfmiddlewaretoken' value='2AK5Jn8lnb37vhLOUqbO1VCIQ1sJA7BikP5SW4Hc48q3mj7tBGzhBgGN8DSu85TD' />
+  <div class="form-row">
+    
+    <label class="required" for="id_username">Username:</label> <input type="text" name="username" autofocus maxlength="254" required id="id_username" />
+  </div>
+  <div class="form-row">
+    
+    <label class="required" for="id_password">Password:</label> <input type="password" name="password" required id="id_password" />
+    <input type="hidden" name="next" value="/admin/" />
+  </div>
+  
+  
+  <div class="submit-row">
+    <label>&nbsp;</label><input type="submit" value="Log in" />
+  </div>
+</form>
+
+</div>
+
+        
+        <br class="clear" />
+    </div>
+    <!-- END Content -->
+
+    <div id="footer"></div>
+</div>
+<!-- END Container -->
+
+</body>
+</html>
+
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>json</th>
+                        <td>
+                          
+                            None
+                          
+                        </td>
+                      </tr>
+                    
+                  </table>
+              </div>
+
+              <h3>Validators:</h3>
+              <div style="overflow: auto">
+                  <table>
+                    <tr>
+                      <th>check</th>
+                      <th>comparator</th>
+                      <th>expect value</th>
+                      <th>actual value</th>
+                    </tr>
+                    
+                  </table>
+              </div>
+
+              <h3>Statistics:</h3>
+              <div style="overflow: auto">
+                <table>
+                  <tr>
+                      <th>content_size(bytes)</th>
+                      <td>1842</td>
+                    </tr>
+                  <tr>
+                    <th>response_time(ms)</th>
+                    <td>110.02</td>
+                  </tr>
+                  <tr>
+                    <th>elapsed(ms)</th>
+                    <td>106.756</td>
+                  </tr>
+                </table>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        
+
+      </td>
+    </tr>
+  
+    
+    <tr id="record_1_2">
+      <th class="success" style="width:5em;">success</td>
+      <td colspan="2">web登录---post</td>
+      <td style="text-align:center;width:6em;">347.08 ms</td>
+      <td class="detail">
+
+        <a class="button" href="#popup_log_1_2">log</a>
+        <div id="popup_log_1_2" class="overlay">
+          <div class="popup">
+            <h2>Request and Response data</h2>
+            <a class="close" href="#record_1_2">&times;</a>
+
+            <div class="content">
+              <h3>Request:</h3>
+              <div style="overflow: auto">
+                <table>
+                  
+                    <tr>
+                      <th>url</th>
+                      <td>
+                        
+                          http://49.235.92.12:6009/admin/login/
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>method</th>
+                      <td>
+                        
+                          POST
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>headers</th>
+                      <td>
+                        
+                          
+                          <div>
+                            <strong>User-Agent</strong>: python-requests/2.22.0
+                          </div>
+                          
+                          <div>
+                            <strong>Accept-Encoding</strong>: gzip, deflate
+                          </div>
+                          
+                          <div>
+                            <strong>Accept</strong>: */*
+                          </div>
+                          
+                          <div>
+                            <strong>Connection</strong>: keep-alive
+                          </div>
+                          
+                          <div>
+                            <strong>Cookie</strong>: csrftoken=YCaT4ihmGTiYgFjqPw7QbOJY3wjhQsSvFiENedwlIlujijDjURQvndJ5GyBF3WIf; sessionid=9tvuyk0m63sgj9k4peopmk9o8a1zc72p
+                          </div>
+                          
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>start_timestamp</th>
+                      <td>
+                        
+                          1590500182.5511007
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>data</th>
+                      <td>
+                        
+                          {'csrfmiddlewaretoken': '2AK5Jn8lnb37vhLOUqbO1VCIQ1sJA7BikP5SW4Hc48q3mj7tBGzhBgGN8DSu85TD', 'username': 'admin', 'password': 'yoyo123456', 'next': '/admin/'}
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>body</th>
+                      <td>
+                        
+                          None
+                        
+                      </td>
+                    </tr>
+                  
+                </table>
+              </div>
+
+              <h3>Response:</h3>
+              <div style="overflow: auto">
+                <table>
+                    
+                      <tr>
+                        <th>status_code</th>
+                        <td>
+                          
+                            200
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>headers</th>
+                        <td>
+                          
+                            
+                            <div>
+                              <strong>User-Agent</strong>: python-requests/2.22.0
+                            </div>
+                            
+                            <div>
+                              <strong>Accept-Encoding</strong>: gzip, deflate
+                            </div>
+                            
+                            <div>
+                              <strong>Accept</strong>: */*
+                            </div>
+                            
+                            <div>
+                              <strong>Connection</strong>: keep-alive
+                            </div>
+                            
+                            <div>
+                              <strong>Cookie</strong>: csrftoken=YCaT4ihmGTiYgFjqPw7QbOJY3wjhQsSvFiENedwlIlujijDjURQvndJ5GyBF3WIf; sessionid=9tvuyk0m63sgj9k4peopmk9o8a1zc72p
+                            </div>
+                            
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>content_size</th>
+                        <td>
+                          
+                            6554
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>response_time_ms</th>
+                        <td>
+                          
+                            347.08
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>elapsed_ms</th>
+                        <td>
+                          
+                            113.622
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>encoding</th>
+                        <td>
+                          
+                            utf-8
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>content</th>
+                        <td>
+                          
+                            &lt;!DOCTYPE html&gt;
+
+&lt;html lang=&#34;en-us&#34; &gt;
+&lt;head&gt;
+&lt;title&gt;Site administration | Django site admin&lt;/title&gt;
+&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;/static/admin/css/base.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;/static/admin/css/dashboard.css&#34; /&gt;
+
+
+
+    &lt;meta name=&#34;viewport&#34; content=&#34;user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0&#34;&gt;
+    &lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;/static/admin/css/responsive.css&#34; /&gt;
+    
+
+&lt;meta name=&#34;robots&#34; content=&#34;NONE,NOARCHIVE&#34; /&gt;
+&lt;/head&gt;
+
+
+&lt;body class=&#34; dashboard&#34;
+  data-admin-utc-offset=&#34;0&#34;&gt;
+
+&lt;!-- Container --&gt;
+&lt;div id=&#34;container&#34;&gt;
+
+    
+    &lt;!-- Header --&gt;
+    &lt;div id=&#34;header&#34;&gt;
+        &lt;div id=&#34;branding&#34;&gt;
+        
+&lt;h1 id=&#34;site-name&#34;&gt;&lt;a href=&#34;/admin/&#34;&gt;Django administration&lt;/a&gt;&lt;/h1&gt;
+
+        &lt;/div&gt;
+        
+        
+        &lt;div id=&#34;user-tools&#34;&gt;
+            
+                Welcome,
+                &lt;strong&gt;admin&lt;/strong&gt;.
+            
+            
+                
+                    &lt;a href=&#34;/&#34;&gt;View site&lt;/a&gt; /
+                
+                
+                    
+                    
+                
+                
+                &lt;a href=&#34;/admin/password_change/&#34;&gt;Change password&lt;/a&gt; /
+                
+                &lt;a href=&#34;/admin/logout/&#34;&gt;Log out&lt;/a&gt;
+            
+        &lt;/div&gt;
+        
+        
+        
+    &lt;/div&gt;
+    &lt;!-- END Header --&gt;
+    
+    
+
+    
+        
+    
+
+    &lt;!-- Content --&gt;
+    &lt;div id=&#34;content&#34; class=&#34;colMS&#34;&gt;
+        
+        &lt;h1&gt;Site administration&lt;/h1&gt;
+        
+&lt;div id=&#34;content-main&#34;&gt;
+
+
+    
+        &lt;div class=&#34;app-authtoken module&#34;&gt;
+        &lt;table&gt;
+        &lt;caption&gt;
+            &lt;a href=&#34;/admin/authtoken/&#34; class=&#34;section&#34; title=&#34;Models in the Auth Token application&#34;&gt;Auth Token&lt;/a&gt;
+        &lt;/caption&gt;
+        
+            &lt;tr class=&#34;model-token&#34;&gt;
+            
+                &lt;th scope=&#34;row&#34;&gt;&lt;a href=&#34;/admin/authtoken/token/&#34;&gt;Tokens&lt;/a&gt;&lt;/th&gt;
+            
+
+            
+                &lt;td&gt;&lt;a href=&#34;/admin/authtoken/token/add/&#34; class=&#34;addlink&#34;&gt;Add&lt;/a&gt;&lt;/td&gt;
+            
+
+            
+                &lt;td&gt;&lt;a href=&#34;/admin/authtoken/token/&#34; class=&#34;changelink&#34;&gt;Change&lt;/a&gt;&lt;/td&gt;
+            
+            &lt;/tr&gt;
+        
+        &lt;/table&gt;
+        &lt;/div&gt;
+    
+        &lt;div class=&#34;app-auth module&#34;&gt;
+        &lt;table&gt;
+        &lt;caption&gt;
+            &lt;a href=&#34;/admin/auth/&#34; class=&#34;section&#34; title=&#34;Models in the Authentication and Authorization application&#34;&gt;Authentication and Authorization&lt;/a&gt;
+        &lt;/caption&gt;
+        
+            &lt;tr class=&#34;model-group&#34;&gt;
+            
+                &lt;th scope=&#34;row&#34;&gt;&lt;a href=&#34;/admin/auth/group/&#34;&gt;Groups&lt;/a&gt;&lt;/th&gt;
+            
+
+            
+                &lt;td&gt;&lt;a href=&#34;/admin/auth/group/add/&#34; class=&#34;addlink&#34;&gt;Add&lt;/a&gt;&lt;/td&gt;
+            
+
+            
+                &lt;td&gt;&lt;a href=&#34;/admin/auth/group/&#34; class=&#34;changelink&#34;&gt;Change&lt;/a&gt;&lt;/td&gt;
+            
+            &lt;/tr&gt;
+        
+            &lt;tr class=&#34;model-user&#34;&gt;
+            
+                &lt;th scope=&#34;row&#34;&gt;&lt;a href=&#34;/admin/auth/user/&#34;&gt;Users&lt;/a&gt;&lt;/th&gt;
+            
+
+            
+                &lt;td&gt;&lt;a href=&#34;/admin/auth/user/add/&#34; class=&#34;addlink&#34;&gt;Add&lt;/a&gt;&lt;/td&gt;
+            
+
+            
+                &lt;td&gt;&lt;a href=&#34;/admin/auth/user/&#34; class=&#34;changelink&#34;&gt;Change&lt;/a&gt;&lt;/td&gt;
+            
+            &lt;/tr&gt;
+        
+        &lt;/table&gt;
+        &lt;/div&gt;
+    
+
+&lt;/div&gt;
+
+        
+&lt;div id=&#34;content-related&#34;&gt;
+    &lt;div class=&#34;module&#34; id=&#34;recent-actions-module&#34;&gt;
+        &lt;h2&gt;Recent actions&lt;/h2&gt;
+        &lt;h3&gt;My actions&lt;/h3&gt;
+            
+            
+            
+            &lt;ul class=&#34;actionlist&#34;&gt;
+            
+            &lt;li class=&#34;addlink&#34;&gt;
+                
+                    &lt;a href=&#34;/admin/auth/user/101447/change/&#34;&gt;arzigul&lt;/a&gt;
+                
+                &lt;br/&gt;
+                
+                    &lt;span class=&#34;mini quiet&#34;&gt;User&lt;/span&gt;
+                
+            &lt;/li&gt;
+            
+            &lt;li class=&#34;addlink&#34;&gt;
+                
+                    &lt;a href=&#34;/admin/auth/user/101357/change/&#34;&gt;testly1&lt;/a&gt;
+                
+                &lt;br/&gt;
+                
+                    &lt;span class=&#34;mini quiet&#34;&gt;User&lt;/span&gt;
+                
+            &lt;/li&gt;
+            
+            &lt;li class=&#34;changelink&#34;&gt;
+                
+                    &lt;a href=&#34;/admin/auth/user/101356/change/&#34;&gt;testly&lt;/a&gt;
+                
+                &lt;br/&gt;
+                
+                    &lt;span class=&#34;mini quiet&#34;&gt;User&lt;/span&gt;
+                
+            &lt;/li&gt;
+            
+            &lt;li class=&#34;addlink&#34;&gt;
+                
+                    &lt;a href=&#34;/admin/auth/user/101356/change/&#34;&gt;testly&lt;/a&gt;
+                
+                &lt;br/&gt;
+                
+                    &lt;span class=&#34;mini quiet&#34;&gt;User&lt;/span&gt;
+                
+            &lt;/li&gt;
+            
+            &lt;li class=&#34;deletelink&#34;&gt;
+                
+                    elite
+                
+                &lt;br/&gt;
+                
+                    &lt;span class=&#34;mini quiet&#34;&gt;User&lt;/span&gt;
+                
+            &lt;/li&gt;
+            
+            &lt;li class=&#34;changelink&#34;&gt;
+                
+                    &lt;a href=&#34;/admin/auth/user/101017/change/&#34;&gt;elite&lt;/a&gt;
+                
+                &lt;br/&gt;
+                
+                    &lt;span class=&#34;mini quiet&#34;&gt;User&lt;/span&gt;
+                
+            &lt;/li&gt;
+            
+            &lt;li class=&#34;addlink&#34;&gt;
+                
+                    &lt;a href=&#34;/admin/auth/user/101017/change/&#34;&gt;elite&lt;/a&gt;
+                
+                &lt;br/&gt;
+                
+                    &lt;span class=&#34;mini quiet&#34;&gt;User&lt;/span&gt;
+                
+            &lt;/li&gt;
+            
+            &lt;li class=&#34;changelink&#34;&gt;
+                
+                    &lt;a href=&#34;/admin/authtoken/token/b66039f05ab64d7e5690d55475e89240ee326f2f/change/&#34;&gt;b66039f05ab64d7e5690d55475e89240ee326f2f&lt;/a&gt;
+                
+                &lt;br/&gt;
+                
+                    &lt;span class=&#34;mini quiet&#34;&gt;Token&lt;/span&gt;
+                
+            &lt;/li&gt;
+            
+            &lt;li class=&#34;addlink&#34;&gt;
+                
+                    &lt;a href=&#34;/admin/auth/user/1095/change/&#34;&gt;test0202&lt;/a&gt;
+                
+                &lt;br/&gt;
+                
+                    &lt;span class=&#34;mini quiet&#34;&gt;User&lt;/span&gt;
+                
+            &lt;/li&gt;
+            
+            &lt;li class=&#34;changelink&#34;&gt;
+                
+                    &lt;a href=&#34;/admin/auth/user/23/change/&#34;&gt;lujy&lt;/a&gt;
+                
+                &lt;br/&gt;
+                
+                    &lt;span class=&#34;mini quiet&#34;&gt;User&lt;/span&gt;
+                
+            &lt;/li&gt;
+            
+            &lt;/ul&gt;
+            
+    &lt;/div&gt;
+&lt;/div&gt;
+
+        &lt;br class=&#34;clear&#34; /&gt;
+    &lt;/div&gt;
+    &lt;!-- END Content --&gt;
+
+    &lt;div id=&#34;footer&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- END Container --&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>content_type</th>
+                        <td>
+                          
+                            
+                              <pre></pre>
+                            
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>ok</th>
+                        <td>
+                          
+                            True
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>url</th>
+                        <td>
+                          
+                            http://49.235.92.12:6009/admin/
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>reason</th>
+                        <td>
+                          
+                            OK
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>cookies</th>
+                        <td>
+                          
+                            {}
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>text</th>
+                        <td>
+                          
+                            <!DOCTYPE html>
+
+<html lang="en-us" >
+<head>
+<title>Site administration | Django site admin</title>
+<link rel="stylesheet" type="text/css" href="/static/admin/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/static/admin/css/dashboard.css" />
+
+
+
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/responsive.css" />
+    
+
+<meta name="robots" content="NONE,NOARCHIVE" />
+</head>
+
+
+<body class=" dashboard"
+  data-admin-utc-offset="0">
+
+<!-- Container -->
+<div id="container">
+
+    
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+        
+<h1 id="site-name"><a href="/admin/">Django administration</a></h1>
+
+        </div>
+        
+        
+        <div id="user-tools">
+            
+                Welcome,
+                <strong>admin</strong>.
+            
+            
+                
+                    <a href="/">View site</a> /
+                
+                
+                    
+                    
+                
+                
+                <a href="/admin/password_change/">Change password</a> /
+                
+                <a href="/admin/logout/">Log out</a>
+            
+        </div>
+        
+        
+        
+    </div>
+    <!-- END Header -->
+    
+    
+
+    
+        
+    
+
+    <!-- Content -->
+    <div id="content" class="colMS">
+        
+        <h1>Site administration</h1>
+        
+<div id="content-main">
+
+
+    
+        <div class="app-authtoken module">
+        <table>
+        <caption>
+            <a href="/admin/authtoken/" class="section" title="Models in the Auth Token application">Auth Token</a>
+        </caption>
+        
+            <tr class="model-token">
+            
+                <th scope="row"><a href="/admin/authtoken/token/">Tokens</a></th>
+            
+
+            
+                <td><a href="/admin/authtoken/token/add/" class="addlink">Add</a></td>
+            
+
+            
+                <td><a href="/admin/authtoken/token/" class="changelink">Change</a></td>
+            
+            </tr>
+        
+        </table>
+        </div>
+    
+        <div class="app-auth module">
+        <table>
+        <caption>
+            <a href="/admin/auth/" class="section" title="Models in the Authentication and Authorization application">Authentication and Authorization</a>
+        </caption>
+        
+            <tr class="model-group">
+            
+                <th scope="row"><a href="/admin/auth/group/">Groups</a></th>
+            
+
+            
+                <td><a href="/admin/auth/group/add/" class="addlink">Add</a></td>
+            
+
+            
+                <td><a href="/admin/auth/group/" class="changelink">Change</a></td>
+            
+            </tr>
+        
+            <tr class="model-user">
+            
+                <th scope="row"><a href="/admin/auth/user/">Users</a></th>
+            
+
+            
+                <td><a href="/admin/auth/user/add/" class="addlink">Add</a></td>
+            
+
+            
+                <td><a href="/admin/auth/user/" class="changelink">Change</a></td>
+            
+            </tr>
+        
+        </table>
+        </div>
+    
+
+</div>
+
+        
+<div id="content-related">
+    <div class="module" id="recent-actions-module">
+        <h2>Recent actions</h2>
+        <h3>My actions</h3>
+            
+            
+            
+            <ul class="actionlist">
+            
+            <li class="addlink">
+                
+                    <a href="/admin/auth/user/101447/change/">arzigul</a>
+                
+                <br/>
+                
+                    <span class="mini quiet">User</span>
+                
+            </li>
+            
+            <li class="addlink">
+                
+                    <a href="/admin/auth/user/101357/change/">testly1</a>
+                
+                <br/>
+                
+                    <span class="mini quiet">User</span>
+                
+            </li>
+            
+            <li class="changelink">
+                
+                    <a href="/admin/auth/user/101356/change/">testly</a>
+                
+                <br/>
+                
+                    <span class="mini quiet">User</span>
+                
+            </li>
+            
+            <li class="addlink">
+                
+                    <a href="/admin/auth/user/101356/change/">testly</a>
+                
+                <br/>
+                
+                    <span class="mini quiet">User</span>
+                
+            </li>
+            
+            <li class="deletelink">
+                
+                    elite
+                
+                <br/>
+                
+                    <span class="mini quiet">User</span>
+                
+            </li>
+            
+            <li class="changelink">
+                
+                    <a href="/admin/auth/user/101017/change/">elite</a>
+                
+                <br/>
+                
+                    <span class="mini quiet">User</span>
+                
+            </li>
+            
+            <li class="addlink">
+                
+                    <a href="/admin/auth/user/101017/change/">elite</a>
+                
+                <br/>
+                
+                    <span class="mini quiet">User</span>
+                
+            </li>
+            
+            <li class="changelink">
+                
+                    <a href="/admin/authtoken/token/b66039f05ab64d7e5690d55475e89240ee326f2f/change/">b66039f05ab64d7e5690d55475e89240ee326f2f</a>
+                
+                <br/>
+                
+                    <span class="mini quiet">Token</span>
+                
+            </li>
+            
+            <li class="addlink">
+                
+                    <a href="/admin/auth/user/1095/change/">test0202</a>
+                
+                <br/>
+                
+                    <span class="mini quiet">User</span>
+                
+            </li>
+            
+            <li class="changelink">
+                
+                    <a href="/admin/auth/user/23/change/">lujy</a>
+                
+                <br/>
+                
+                    <span class="mini quiet">User</span>
+                
+            </li>
+            
+            </ul>
+            
+    </div>
+</div>
+
+        <br class="clear" />
+    </div>
+    <!-- END Content -->
+
+    <div id="footer"></div>
+</div>
+<!-- END Container -->
+
+</body>
+</html>
+
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>json</th>
+                        <td>
+                          
+                            None
+                          
+                        </td>
+                      </tr>
+                    
+                  </table>
+              </div>
+
+              <h3>Validators:</h3>
+              <div style="overflow: auto">
+                  <table>
+                    <tr>
+                      <th>check</th>
+                      <th>comparator</th>
+                      <th>expect value</th>
+                      <th>actual value</th>
+                    </tr>
+                    
+                    <tr>
+                      
+                      <td class="passed">
+                      
+                        status_code
+                      </td>
+                      <td>eq</td>
+                      <td>200</td>
+                      <td>200</td>
+                    </tr>
+                    
+                    <tr>
+                      
+                      <td class="passed">
+                      
+                        $titlex
+                      </td>
+                      <td>eq</td>
+                      <td>Site administration | Django site admin</td>
+                      <td>Site administration | Django site admin</td>
+                    </tr>
+                    
+                  </table>
+              </div>
+
+              <h3>Statistics:</h3>
+              <div style="overflow: auto">
+                <table>
+                  <tr>
+                      <th>content_size(bytes)</th>
+                      <td>6554</td>
+                    </tr>
+                  <tr>
+                    <th>response_time(ms)</th>
+                    <td>347.08</td>
+                  </tr>
+                  <tr>
+                    <th>elapsed(ms)</th>
+                    <td>113.622</td>
+                  </tr>
+                </table>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        
+
+      </td>
+    </tr>
+  
+  </table>
+  
+</body>

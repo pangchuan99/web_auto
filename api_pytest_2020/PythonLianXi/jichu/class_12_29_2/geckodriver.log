@@ -1,0 +1,228 @@
+1577629107764	geckodriver	INFO	geckodriver 0.19.0
+1577629107779	geckodriver	INFO	Listening on 127.0.0.1:55834
+1577629110843	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.mYKSEicJEPwI"
+1577629111594	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577629111594	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577629111595	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577629111595	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577629111664	Marionette	TRACE	Received observer notification profile-after-change
+1577629111700	Marionette	TRACE	Received observer notification toplevel-window-ready
+1577629111728	Marionette	TRACE	Received observer notification command-line-startup
+1577629111728	Marionette	TRACE	Received observer notification nsPref:changed
+1577629111728	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1577629111784	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+WARN: compileToBinary(259): 
+C:\fakepath(337,18-133): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(343,62-116): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(360,75-84): warning X3556: integer divides may be much slower, try using uints if possible.
+C:\fakepath(363,50-59): warning X3556: integer modulus may be much slower, try using uints if possible.
+C:\fakepath(383,33-90): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(174,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+C:\fakepath(289,25-29): error X4576: Input array signature parameter  cannot be indexed dynamically.
+
+WARN: compileToBinary(259): 
+C:\fakepath(337,18-133): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(343,62-116): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(360,75-84): warning X3556: integer divides may be much slower, try using uints if possible.
+C:\fakepath(363,50-59): warning X3556: integer modulus may be much slower, try using uints if possible.
+C:\fakepath(383,33-90): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(174,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+C:\fakepath(289,25-29): error X4576: Input array signature parameter  cannot be indexed dynamically.
+
+WARN: compileToBinary(259): 
+C:\fakepath(360,75-84): warning X3556: integer divides may be much slower, try using uints if possible.
+C:\fakepath(363,50-59): warning X3556: integer modulus may be much slower, try using uints if possible.
+C:\fakepath(174,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+C:\fakepath(225,1): warning X4000: use of potentially uninitialized variable (f_distance_aa)
+C:\fakepath(262,1): warning X4000: use of potentially uninitialized variable (f_do_clip)
+
+1577629113601	Marionette	TRACE	Received observer notification marionette-startup-requested
+1577629113601	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1577629113608	Marionette	TRACE	All scripts recorded.
+1577629113608	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1577629113608	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1577629113608	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1577629113608	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1577629113608	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1577629113609	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1577629113609	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1577629113609	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1577629113609	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1577629113609	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1577629113610	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1577629113645	Marionette	INFO	Listening on port 55844
+1577629113645	Marionette	DEBUG	Remote service is active
+1577629113873	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:55856
+1577629113874	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1577629113874	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:175: ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1577629113885	Marionette	DEBUG	Closed connection 0
+[Parent 12360, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 12360, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15304, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Chil[Child 15304, Chd 6308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6308, Ch1577629143438	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1577629143438	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1577629143438	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1577629143438	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1577629143438	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1577629143438	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1577629143438	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1577629143439	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1577629143439	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1577629143439	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1577629143439	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1577629143439	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1577629143439	Marionette	INFO	Stopped listening on port 55844
+1577629143439	Marionette	DEBUG	Remote service is inactive
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 16940, Chrome_ChildThre
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1577629160506	geckodriver	INFO	geckodriver 0.19.0
+1577629160522	geckodriver	INFO	Listening on 127.0.0.1:55937
+1577629163575	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.VKsIHd0x0vtp"
+1577629164323	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577629164323	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577629164323	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577629164323	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577629164389	Marionette	TRACE	Received observer notification profile-after-change
+1577629164428	Marionette	TRACE	Received observer notification toplevel-window-ready
+1577629164456	Marionette	TRACE	Received observer notification command-line-startup
+1577629164456	Marionette	TRACE	Received observer notification nsPref:changed
+1577629164456	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1577629164509	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+WARN: compileToBinary(259): 
+C:\fakepath(337,18-133): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(343,62-116): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(360,75-84): warning X3556: integer divides may be much slower, try using uints if possible.
+C:\fakepath(363,50-59): warning X3556: integer modulus may be much slower, try using uints if possible.
+C:\fakepath(383,33-90): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(174,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+C:\fakepath(289,25-29): error X4576: Input array signature parameter  cannot be indexed dynamically.
+
+WARN: compileToBinary(259): 
+C:\fakepath(337,18-133): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(343,62-116): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(360,75-84): warning X3556: integer divides may be much slower, try using uints if possible.
+C:\fakepath(363,50-59): warning X3556: integer modulus may be much slower, try using uints if possible.
+C:\fakepath(383,33-90): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(174,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+C:\fakepath(289,25-29): error X4576: Input array signature parameter  cannot be indexed dynamically.
+
+WARN: compileToBinary(259): 
+C:\fakepath(360,75-84): warning X3556: integer divides may be much slower, try using uints if possible.
+C:\fakepath(363,50-59): warning X3556: integer modulus may be much slower, try using uints if possible.
+C:\fakepath(174,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+C:\fakepath(225,1): warning X4000: use of potentially uninitialized variable (f_distance_aa)
+C:\fakepath(262,1): warning X4000: use of potentially uninitialized variable (f_do_clip)
+
+1577629166302	Marionette	TRACE	Received observer notification marionette-startup-requested
+1577629166303	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1577629166312	Marionette	TRACE	All scripts recorded.
+1577629166312	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1577629166312	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1577629166312	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1577629166312	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1577629166312	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1577629166313	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1577629166313	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1577629166313	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1577629166313	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1577629166313	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1577629166313	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1577629166343	Marionette	INFO	Listening on port 55946
+1577629166343	Marionette	DEBUG	Remote service is active
+1577629166602	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:55958
+1577629166603	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1577629166604	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:175: ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1577629166611	Marionette	DEBUG	Closed connection 0
+1577629183594	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1577629183594	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1577629183594	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1577629183594	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1577629183594	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1577629183594	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1577629183595	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1577629183595	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1577629183595	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1577629183595	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1577629183595	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1577629183595	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1577629183595	Marionette	INFO	Stopped listening on port 55946
+1577629183595	Marionette	DEBUG	Remote service is inactive
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 5368, Chrome_ChildThrea
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ived observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+WARN: compileToBinary(259): 
+C:\fakepath(337,18-133): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(343,62-116): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(360,75-84): warning X3556: integer divides may be much slower, try using uints if possible.
+C:\fakepath(363,50-59): warning X3556: integer modulus may be much slower, try using uints if possible.
+C:\fakepath(383,33-90): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(174,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+C:\fakepath(289,25-29): error X4576: Input array signature parameter  cannot be indexed dynamically.
+
+WARN: compileToBinary(259): 
+C:\fakepath(337,18-133): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(343,62-116): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(360,75-84): warning X3556: integer divides may be much slower, try using uints if possible.
+C:\fakepath(363,50-59): warning X3556: integer modulus may be much slower, try using uints if possible.
+C:\fakepath(383,33-90): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(174,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+C:\fakepath(289,25-29): error X4576: Input array signature parameter  cannot be indexed dynamically.
+
+WARN: compileToBinary(259): 
+C:\fakepath(360,75-84): warning X3556: integer divides may be much slower, try using uints if possible.
+C:\fakepath(363,50-59): warning X3556: integer modulus may be much slower, try using uints if possible.
+C:\fakepath(174,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+C:\fakepath(225,1): warning X4000: use of potentially uninitialized variable (f_distance_aa)
+C:\fakepath(262,1): warning X4000: use of potentially uninitialized variable (f_do_clip)
+
+1577629185333	Marionette	TRACE	Received observer notification marionette-startup-requested
+1577629185333	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1577629185353	Marionette	TRACE	All scripts recorded.
+1577629185353	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1577629185353	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1577629185353	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1577629185353	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1577629185353	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1577629185354	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1577629185354	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1577629185355	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1577629185355	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1577629185355	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1577629185355	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1577629185384	Marionette	INFO	Listening on port 55998
+1577629185384	Marionette	DEBUG	Remote service is active
+1577629185627	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:56009
+1577629185628	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1577629185629	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:175: ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1577629185637	Marionette	DEBUG	Closed connection 0
+[Parent 7604, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 7604, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[C1577629194955	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1577629194955	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1577629194955	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1577629194955	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1577629194955	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1577629194955	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1577629194955	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1577629194955	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1577629194955	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1577629194956	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1577629194956	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1577629194956	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1577629194956	Marionette	INFO	Stopped listening on port 55998
+1577629194956	Marionette	DEBUG	Remote service is inactive
+[GPU 17656, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

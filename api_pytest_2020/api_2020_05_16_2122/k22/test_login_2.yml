@@ -1,0 +1,60 @@
+
+
+
+
+
+
+
+
+
+
+
+- config:
+        name: 登陆案例
+        request:
+         base_url: http://49.235.92.12:6009
+
+
+- test:
+        name: 输入正确账号,密码----登录成功
+        request:
+          url: /api_2020_05_30_2930/v1/login
+          method: POST
+          json:
+            "username": test
+            "password": "123456"
+          headers:
+             Content-Type: application/json
+        validate:
+          - eq: [status_code, 200]
+          - eq: [content.code, 0]
+          - eq: [content.msg, login success!]
+          - eq: [content.username, test]
+          #判断它的长度
+          - len_eq: [content.token, 40]
+
+- test:
+        name: 输入正确账号,为空----登录失败
+        request:
+          url: /api_2020_05_30_2930/v1/login
+          method: POST
+          json:
+            "username": test
+            "password": ""
+          headers:
+             Content-Type: application/json
+        validate:
+          - eq: [status_code, 200]
+          - eq: [content.code, 3003]
+          - eq: [content.msg, 账号或密码不正确]
+          - eq: [content.username, test]
+          #判断它的长度
+          - len_eq: [content.token, 0]
+
+
+
+
+
+
+
+

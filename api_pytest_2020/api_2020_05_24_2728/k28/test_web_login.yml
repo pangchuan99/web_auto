@@ -1,0 +1,44 @@
+
+
+
+
+
+- config:
+    name: Web网站登录
+    request:
+      base_url: http://49.235.92.12:6009
+
+
+
+
+- test:
+    name: web登录---get
+    request:
+      method: GET
+      url: /admin/login/
+
+    extract:
+    - csrftoken: name='csrfmiddlewaretoken' value='(.+?)'
+
+
+- test:
+    name: web登录---post
+    request:
+      method: POST
+      url: /admin/login/
+      data:
+        csrfmiddlewaretoken: $csrftoken
+        username: admin
+        password: yoyo123456
+        next: /admin/
+    extract:
+    - titlex: <title>(.+?)</title>
+
+
+    validate:
+    - eq: [status_code,200]
+    #注意一下他是data类型的  就要用text    如果是json 那么就要用content
+    #contains 包含的意思
+    - eq: [$titlex,Site administration | Django site admin]
+
+

@@ -1,0 +1,30 @@
+validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.Content-Type
+        - application/json
+    -   eq:
+        - content.code
+        - 0
+    -   eq:
+        - content.msg
+        - login success!
+    -   eq:
+        - content.username
+        - test
+    -   eq:
+        - content.token
+        - 4b84ac88fb25109a688bc83cbb2d536e87f9421d
+
+
+#{
+#  'validate': [{'eq': ['status_code', 200]},
+#               {'eq': ['headers.Content-Type', 'application/json']},
+#               {'eq': ['content.code', 0]},
+#               {'eq': ['content.msg', 'login success!']},
+#               {'eq': ['content.username', 'test']},
+#               {'eq': ['content.token', '4b84ac88fb25109a688bc83cbb2d536e87f9421d']}
+#              ]
+#}

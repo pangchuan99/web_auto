@@ -1,0 +1,828 @@
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> - TestReport</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      color: #333;
+      margin: 0 auto;
+      width: 960px;
+    }
+    #summary {
+      width: 960px;
+      margin-bottom: 20px;
+    }
+    #summary th {
+      background-color: skyblue;
+      padding: 5px 12px;
+    }
+    #summary td {
+      background-color: lightblue;
+      text-align: center;
+      padding: 4px 8px;
+    }
+    .details {
+      width: 960px;
+      margin-bottom: 20px;
+    }
+    .details th {
+      background-color: skyblue;
+      padding: 5px 12px;
+    }
+    .details tr .passed {
+      background-color: lightgreen;
+    }
+    .details tr .failed {
+      background-color: red;
+    }
+    .details tr .unchecked {
+      background-color: gray;
+    }
+    .details td {
+      background-color: lightblue;
+      padding: 5px 12px;
+    }
+    .details .detail {
+      background-color: lightgrey;
+      font-size: smaller;
+      padding: 5px 10px;
+      line-height: 20px;
+      text-align: left;
+    }
+    .details .success {
+      background-color: greenyellow;
+    }
+    .details .error {
+      background-color: red;
+    }
+    .details .failure {
+      background-color: salmon;
+    }
+    .details .skipped {
+      background-color: gray;
+    }
+
+    .button {
+      font-size: 1em;
+      padding: 6px;
+      width: 4em;
+      text-align: center;
+      background-color: #06d85f;
+      border-radius: 20px/50px;
+      cursor: pointer;
+      transition: all 0.3s ease-out;
+    }
+    a.button{
+      color: gray;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .button:hover {
+      background: #2cffbd;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7);
+      transition: opacity 500ms;
+      visibility: hidden;
+      opacity: 0;
+      line-height: 25px;
+    }
+    .overlay:target {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .popup {
+      margin: 70px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      width: 50%;
+      position: relative;
+      transition: all 3s ease-in-out;
+    }
+
+    .popup h2 {
+      margin-top: 0;
+      color: #333;
+      font-family: Tahoma, Arial, sans-serif;
+    }
+    .popup .close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      transition: all 200ms;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #333;
+    }
+    .popup .close:hover {
+      color: #06d85f;
+    }
+    .popup .content {
+      max-height: 80%;
+      overflow: auto;
+      text-align: left;
+    }
+    .popup .separator {
+      color:royalblue
+    }
+
+    @media screen and (max-width: 700px) {
+      .box {
+        width: 70%;
+      }
+      .popup {
+        width: 70%;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Test Report: </h1>
+
+  <h2>Summary</h2>
+  <table id="summary">
+    <tr>
+      <th>START AT</th>
+      <td colspan="4">2020-05-18T15:23:32.657658</td>
+    </tr>
+    <tr>
+      <th>DURATION</th>
+      <td colspan="4">0.106 seconds</td>
+    </tr>
+    <tr>
+      <th>PLATFORM</th>
+      <td>HttpRunner 2.5.5 </td>
+      <td>CPython 3.8.1 </td>
+      <td colspan="2">Windows-10-10.0.18362-SP0</td>
+    </tr>
+    <tr>
+      <th>STAT</th>
+      <th colspan="2">TESTCASES (success/fail)</th>
+      <th colspan="2">TESTSTEPS (success/fail/error/skip)</th>
+    </tr>
+    <tr>
+      <td>total (details) =></td>
+      <td colspan="2">1 (1/0)</td>
+      <td colspan="2">1 (1/0/0/0)</td>
+    </tr>
+  </table>
+
+  <h2>Details</h2>
+
+  
+  
+  <h3>用例描述info</h3>
+  <table id="suite_1" class="details">
+    <tr>
+      <td>TOTAL: 1</td>
+      <td>SUCCESS: 1</td>
+      <td>FAILED: 0</td>
+      <td>ERROR: 0</td>
+      <td>SKIPPED: 0</td>
+    </tr>
+    <tr>
+      <th>Status</th>
+      <th colspan="2">Name</th>
+      <th>Response Time</th>
+      <th>Detail</th>
+    </tr>
+
+    
+    
+    
+    <tr id="record_1_1">
+      <th class="success" style="width:5em;">success</th>
+      <td colspan="2">get info</td>
+      <td style="text-align:center;width:6em;">101.02 ms</td>
+      <td class="detail">
+
+        
+        
+        <a class="button" href="#popup_log_1_1_1">log-1</a>
+        <div id="popup_log_1_1_1" class="overlay">
+          <div class="popup">
+            <h2>Request and Response data</h2>
+            <a class="close" href="#record_1_1_1">&times;</a>
+
+            <div class="content">
+              <h3>Name: get info</h3>
+
+              
+
+              
+
+              <h3>Request:</h3>
+              <div style="overflow: auto">
+                <table>
+                  
+                    <tr>
+                      <th>url</th>
+                      <td>
+                        
+                            http://49.235.92.12:6009/userinfo
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>method</th>
+                      <td>
+                        
+                            GET
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>headers</th>
+                      <td>
+                        
+                            <pre>{
+  &#34;User-Agent&#34;: &#34;python-requests/2.22.0&#34;,
+  &#34;Accept-Encoding&#34;: &#34;gzip, deflate&#34;,
+  &#34;Accept&#34;: &#34;*/*&#34;,
+  &#34;Connection&#34;: &#34;keep-alive&#34;
+}</pre>
+                        
+                      </td>
+                    </tr>
+                  
+                </table>
+              </div>
+
+              <h3>Response:</h3>
+              <div style="overflow: auto">
+                <table>
+                    
+                      <tr>
+                        <th>ok</th>
+                        <td>
+                          
+                            True
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>url</th>
+                        <td>
+                          
+                            http://49.235.92.12:6009/userinfo
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>status_code</th>
+                        <td>
+                          
+                            200
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>reason</th>
+                        <td>
+                          
+                            OK
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>cookies</th>
+                        <td>
+                          
+                            {}
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>encoding</th>
+                        <td>
+                          
+                            None
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>headers</th>
+                        <td>
+                          
+                            <pre>{
+  &#34;Date&#34;: &#34;Mon, 18 May 2020 15:23:33 GMT&#34;,
+  &#34;Server&#34;: &#34;WSGIServer/0.2 CPython/3.6.8&#34;,
+  &#34;Content-Type&#34;: &#34;application/json&#34;,
+  &#34;Vary&#34;: &#34;Accept, Cookie&#34;,
+  &#34;Allow&#34;: &#34;GET, POST, HEAD, OPTIONS&#34;,
+  &#34;X-Frame-Options&#34;: &#34;SAMEORIGIN&#34;,
+  &#34;Content-Length&#34;: &#34;4635&#34;
+}</pre>
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>content_type</th>
+                        <td>
+                          
+                            application/json
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>body</th>
+                        <td>
+                          
+                            
+                              <pre>[
+  {
+    &#34;id&#34;: 104,
+    &#34;name&#34;: &#34;test3&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-04-10&#34;
+  },
+  {
+    &#34;id&#34;: 105,
+    &#34;name&#34;: &#34;test&#34;,
+    &#34;sex&#34;: &#34;F&#34;,
+    &#34;age&#34;: 20,
+    &#34;mail&#34;: &#34;123456@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-05-18&#34;
+  },
+  {
+    &#34;id&#34;: 106,
+    &#34;name&#34;: &#34;test1&#34;,
+    &#34;sex&#34;: &#34;F&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;283340479@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-05-05&#34;
+  },
+  {
+    &#34;id&#34;: 109,
+    &#34;name&#34;: &#34;test2&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 20,
+    &#34;mail&#34;: &#34;283340479@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-04-28&#34;
+  },
+  {
+    &#34;id&#34;: 110,
+    &#34;name&#34;: &#34;test4&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-04-10&#34;
+  },
+  {
+    &#34;id&#34;: 111,
+    &#34;name&#34;: &#34;test5&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-04-10&#34;
+  },
+  {
+    &#34;id&#34;: 112,
+    &#34;name&#34;: &#34;test6&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-04-10&#34;
+  },
+  {
+    &#34;id&#34;: 113,
+    &#34;name&#34;: &#34;test7&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-04-10&#34;
+  },
+  {
+    &#34;id&#34;: 114,
+    &#34;name&#34;: &#34;test8&#34;,
+    &#34;sex&#34;: &#34;F&#34;,
+    &#34;age&#34;: 20,
+    &#34;mail&#34;: &#34;283340479@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-04-23&#34;
+  },
+  {
+    &#34;id&#34;: 115,
+    &#34;name&#34;: &#34;test9&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-04-10&#34;
+  },
+  {
+    &#34;id&#34;: 116,
+    &#34;name&#34;: &#34;test10&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-04-10&#34;
+  },
+  {
+    &#34;id&#34;: 117,
+    &#34;name&#34;: &#34;test011001&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 20,
+    &#34;mail&#34;: &#34;test011001@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-01-13&#34;
+  },
+  {
+    &#34;id&#34;: 888,
+    &#34;name&#34;: &#34;pigpapa&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 30,
+    &#34;mail&#34;: &#34;774855777@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-01-15&#34;
+  },
+  {
+    &#34;id&#34;: 889,
+    &#34;name&#34;: &#34;admin&#34;,
+    &#34;sex&#34;: &#34;F&#34;,
+    &#34;age&#34;: 30,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-05-14&#34;
+  },
+  {
+    &#34;id&#34;: 890,
+    &#34;name&#34;: &#34;test666&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 20,
+    &#34;mail&#34;: &#34;283340479@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-04&#34;
+  },
+  {
+    &#34;id&#34;: 891,
+    &#34;name&#34;: &#34;testfong&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 20,
+    &#34;mail&#34;: &#34;283340479@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-02&#34;
+  },
+  {
+    &#34;id&#34;: 892,
+    &#34;name&#34;: &#34;test11&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 20,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-04-02&#34;
+  },
+  {
+    &#34;id&#34;: 893,
+    &#34;name&#34;: &#34;test12&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 20,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-04-02&#34;
+  },
+  {
+    &#34;id&#34;: 894,
+    &#34;name&#34;: &#34;test13&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 20,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-04-03&#34;
+  },
+  {
+    &#34;id&#34;: 895,
+    &#34;name&#34;: &#34;test14&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 20,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-04-03&#34;
+  },
+  {
+    &#34;id&#34;: 896,
+    &#34;name&#34;: &#34;test15&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 20,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-04-03&#34;
+  },
+  {
+    &#34;id&#34;: 897,
+    &#34;name&#34;: &#34;test16&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 20,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-04-03&#34;
+  },
+  {
+    &#34;id&#34;: 898,
+    &#34;name&#34;: &#34;test17&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 20,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-04-03&#34;
+  },
+  {
+    &#34;id&#34;: 899,
+    &#34;name&#34;: &#34;test18&#34;,
+    &#34;sex&#34;: &#34;F&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;23610@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-31&#34;
+  },
+  {
+    &#34;id&#34;: 900,
+    &#34;name&#34;: &#34;test19&#34;,
+    &#34;sex&#34;: &#34;F&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;23610@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-31&#34;
+  },
+  {
+    &#34;id&#34;: 901,
+    &#34;name&#34;: &#34;lxd1&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-15&#34;
+  },
+  {
+    &#34;id&#34;: 902,
+    &#34;name&#34;: &#34;lxd2&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-15&#34;
+  },
+  {
+    &#34;id&#34;: 903,
+    &#34;name&#34;: &#34;lxd3&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-15&#34;
+  },
+  {
+    &#34;id&#34;: 904,
+    &#34;name&#34;: &#34;lxd4&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-15&#34;
+  },
+  {
+    &#34;id&#34;: 905,
+    &#34;name&#34;: &#34;lxd5&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-15&#34;
+  },
+  {
+    &#34;id&#34;: 906,
+    &#34;name&#34;: &#34;lxd6&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-15&#34;
+  },
+  {
+    &#34;id&#34;: 907,
+    &#34;name&#34;: &#34;lxd7&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-15&#34;
+  },
+  {
+    &#34;id&#34;: 908,
+    &#34;name&#34;: &#34;lxd8&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-15&#34;
+  },
+  {
+    &#34;id&#34;: 909,
+    &#34;name&#34;: &#34;lxd9&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-15&#34;
+  },
+  {
+    &#34;id&#34;: 910,
+    &#34;name&#34;: &#34;lxd10&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-15&#34;
+  },
+  {
+    &#34;id&#34;: 911,
+    &#34;name&#34;: &#34;test20&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 20,
+    &#34;mail&#34;: &#34;123@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-04-02&#34;
+  },
+  {
+    &#34;id&#34;: 912,
+    &#34;name&#34;: &#34;user_r1&#34;,
+    &#34;sex&#34;: &#34;F&#34;,
+    &#34;age&#34;: 10,
+    &#34;mail&#34;: &#34;update@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-20&#34;
+  },
+  {
+    &#34;id&#34;: 913,
+    &#34;name&#34;: &#34;user_r2&#34;,
+    &#34;sex&#34;: &#34;F&#34;,
+    &#34;age&#34;: 10,
+    &#34;mail&#34;: &#34;update@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-20&#34;
+  },
+  {
+    &#34;id&#34;: 914,
+    &#34;name&#34;: &#34;user_r3&#34;,
+    &#34;sex&#34;: &#34;F&#34;,
+    &#34;age&#34;: 25,
+    &#34;mail&#34;: &#34;update@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-20&#34;
+  },
+  {
+    &#34;id&#34;: 915,
+    &#34;name&#34;: &#34;user_r4&#34;,
+    &#34;sex&#34;: &#34;F&#34;,
+    &#34;age&#34;: 10,
+    &#34;mail&#34;: &#34;update@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-20&#34;
+  },
+  {
+    &#34;id&#34;: 916,
+    &#34;name&#34;: &#34;user_r5&#34;,
+    &#34;sex&#34;: &#34;F&#34;,
+    &#34;age&#34;: 28,
+    &#34;mail&#34;: &#34;update@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-20&#34;
+  },
+  {
+    &#34;id&#34;: 917,
+    &#34;name&#34;: &#34;user_r6&#34;,
+    &#34;sex&#34;: &#34;F&#34;,
+    &#34;age&#34;: 28,
+    &#34;mail&#34;: &#34;update@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-20&#34;
+  },
+  {
+    &#34;id&#34;: 918,
+    &#34;name&#34;: &#34;user_r7&#34;,
+    &#34;sex&#34;: &#34;F&#34;,
+    &#34;age&#34;: 26,
+    &#34;mail&#34;: &#34;update@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-20&#34;
+  },
+  {
+    &#34;id&#34;: 919,
+    &#34;name&#34;: &#34;user_r8&#34;,
+    &#34;sex&#34;: &#34;F&#34;,
+    &#34;age&#34;: 17,
+    &#34;mail&#34;: &#34;update@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-20&#34;
+  },
+  {
+    &#34;id&#34;: 920,
+    &#34;name&#34;: &#34;user_r9&#34;,
+    &#34;sex&#34;: &#34;F&#34;,
+    &#34;age&#34;: 24,
+    &#34;mail&#34;: &#34;update@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-20&#34;
+  },
+  {
+    &#34;id&#34;: 921,
+    &#34;name&#34;: &#34;user_r10&#34;,
+    &#34;sex&#34;: &#34;F&#34;,
+    &#34;age&#34;: 12,
+    &#34;mail&#34;: &#34;update@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-03-20&#34;
+  },
+  {
+    &#34;id&#34;: 922,
+    &#34;name&#34;: &#34;test_hlp&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 21,
+    &#34;mail&#34;: &#34;2513461@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-04-21&#34;
+  },
+  {
+    &#34;id&#34;: 923,
+    &#34;name&#34;: &#34;hanxi&#34;,
+    &#34;sex&#34;: &#34;M&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;xxx@163.com&#34;,
+    &#34;create_time&#34;: &#34;2020-05-18&#34;
+  },
+  {
+    &#34;id&#34;: 924,
+    &#34;name&#34;: &#34;tian&#34;,
+    &#34;sex&#34;: &#34;F&#34;,
+    &#34;age&#34;: 23,
+    &#34;mail&#34;: &#34;56577309@qq.com&#34;,
+    &#34;create_time&#34;: &#34;2020-05-06&#34;
+  }
+]</pre>
+                            
+                          
+                        </td>
+                      </tr>
+                    
+                  </table>
+              </div>
+              
+
+              <h3>Validators:</h3>
+                <div style="overflow: auto">
+                
+                
+                <table>
+                    <tr>
+                      <th>check</th>
+                      <th>comparator</th>
+                      <th>expect value</th>
+                      <th>actual value</th>
+                    </tr>
+                    
+                    <tr>
+                      
+                      <td class="passed">
+                      
+                        status_code
+                      </td>
+                      <td>equals</td>
+                      <td>200</td>
+                      <td>200</td>
+                    </tr>
+                    
+                    <tr>
+                      
+                      <td class="passed">
+                      
+                        content.0.name
+                      </td>
+                      <td>equals</td>
+                      <td>test3</td>
+                      <td>test3</td>
+                    </tr>
+                    
+                </table>
+                
+
+                
+                
+              </div>
+
+              <h3>Statistics:</h3>
+              <div style="overflow: auto">
+                <table>
+                  <tr>
+                      <th>content_size(bytes)</th>
+                      <td>4635</td>
+                    </tr>
+                  <tr>
+                    <th>response_time(ms)</th>
+                    <td>101.02</td>
+                  </tr>
+                  <tr>
+                    <th>elapsed(ms)</th>
+                    <td>97.22</td>
+                  </tr>
+                </table>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        
+
+        
+
+      </td>
+    </tr>
+  
+  </table>
+  
+</body>

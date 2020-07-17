@@ -1,0 +1,14 @@
+- config:
+    name: 用例描述info
+
+- test:
+    name: get info
+    request:
+      method: GET
+      url: http://49.235.92.12:6009/userinfo
+    validate:
+    - eq: [status_code, 200]
+    - eq: [content.0.name, test3]
+
+
+

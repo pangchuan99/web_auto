@@ -1,0 +1,28 @@
+
+
+
+
+
+
+- config:
+    name: 正则案例
+
+
+- test:
+    name: test re demo
+    request:
+      url: https://www.cnblogs.com/yoyoketang/
+      method: GET
+      #开了fiddler  然后请求是https
+      verify: false
+    #页面也可以提取出来,有需要用到的 可以传过来   传的话就是  $title
+    extract:
+    - title: '<title>(.+?)</title>'
+
+
+
+    validate:
+    - eq: [status_code,200]
+    #下面这个是'<title>(.+?)</title>' 正则提取  不需要导入 re  re.fiall什么的
+    - eq: ['<title>(.+?)</title>','上海-悠悠 - 博客园']
+

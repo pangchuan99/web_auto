@@ -1,0 +1,28 @@
+
+
+
+
+
+#字典存储
+username: admin
+password: '123456'
+
+
+#字典嵌套字典
+yol:
+ - test1:
+   - username: admin123456
+     password: admin123456
+ - test2:
+   - username1: admin123456
+   - password1: admin123456
+
+
+#test2:
+#    username: admin123456
+#    password: admin123456
+
+#- test3:
+#    username: admin123456
+#    password: admin123456
+

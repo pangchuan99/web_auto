@@ -1,0 +1,1690 @@
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> - TestReport</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      color: #333;
+      margin: 0 auto;
+      width: 960px;
+    }
+    #summary {
+      width: 960px;
+      margin-bottom: 20px;
+    }
+    #summary th {
+      background-color: skyblue;
+      padding: 5px 12px;
+    }
+    #summary td {
+      background-color: lightblue;
+      text-align: center;
+      padding: 4px 8px;
+    }
+    .details {
+      width: 960px;
+      margin-bottom: 20px;
+    }
+    .details th {
+      background-color: skyblue;
+      padding: 5px 12px;
+    }
+    .details tr .passed {
+      background-color: lightgreen;
+    }
+    .details tr .failed {
+      background-color: red;
+    }
+    .details tr .unchecked {
+      background-color: gray;
+    }
+    .details td {
+      background-color: lightblue;
+      padding: 5px 12px;
+    }
+    .details .detail {
+      background-color: lightgrey;
+      font-size: smaller;
+      padding: 5px 10px;
+      text-align: center;
+    }
+    .details .success {
+      background-color: greenyellow;
+    }
+    .details .error {
+      background-color: red;
+    }
+    .details .failure {
+      background-color: salmon;
+    }
+    .details .skipped {
+      background-color: gray;
+    }
+
+    .button {
+      font-size: 1em;
+      padding: 6px;
+      width: 4em;
+      text-align: center;
+      background-color: #06d85f;
+      border-radius: 20px/50px;
+      cursor: pointer;
+      transition: all 0.3s ease-out;
+    }
+    a.button{
+      color: gray;
+      text-decoration: none;
+    }
+    .button:hover {
+      background: #2cffbd;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7);
+      transition: opacity 500ms;
+      visibility: hidden;
+      opacity: 0;
+    }
+    .overlay:target {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .popup {
+      margin: 70px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      width: 50%;
+      position: relative;
+      transition: all 3s ease-in-out;
+    }
+
+    .popup h2 {
+      margin-top: 0;
+      color: #333;
+      font-family: Tahoma, Arial, sans-serif;
+    }
+    .popup .close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      transition: all 200ms;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #333;
+    }
+    .popup .close:hover {
+      color: #06d85f;
+    }
+    .popup .content {
+      max-height: 80%;
+      overflow: auto;
+      text-align: left;
+    }
+
+    @media screen and (max-width: 700px) {
+      .box {
+        width: 70%;
+      }
+      .popup {
+        width: 70%;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Test Report: </h1>
+
+  <h2>Summary</h2>
+  <table id="summary">
+
+    <tr>
+      <th>START AT</th>
+      <td colspan="4">2020-05-22 21:55:05</td>
+    </tr>
+    <tr>
+      <th>DURATION</th>
+      <td colspan="4">0.201 seconds</td>
+    </tr>
+    <tr>
+      <th>PLATFORM</th>
+      <td>HttpRunner 1.5.8 </td>
+      <td>CPython 3.8.1 </td>
+      <td colspan="2">Windows-10-10.0.18362-SP0</td>
+    </tr>
+    <tr>
+      <th>TOTAL</th>
+      <th>SUCCESS</th>
+      <th>FAILED</th>
+      <th>ERROR</th>
+      <th>SKIPPED</th>
+      <!-- <th>ExpectedFailure</th>
+      <th>UnexpectedSuccess</th> -->
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <!-- <td>0</td>
+      <td>0</td> -->
+    </tr>
+  </table>
+
+  <h2>Details</h2>
+
+  
+  
+  <h3>正则案例</h3>
+  <table id="suite_1" class="details">
+    <tr>
+      <th>base_url</th>
+      <td colspan="2"></td>
+      <th colspan="2" class="detail">
+        <a class="button" href="#suite_output_1">parameters & output</a>
+        <div id="suite_output_1" class="overlay">
+            <div class="popup">
+                <h2>Parameters and Output</h2>
+                <a class="close" href="#suite_1">&times;</a>
+                <div class="content">
+                  <div style="overflow: auto">
+                      <table>
+                        <tr>
+                          <th>variables</th>
+                          <th>output</th>
+                        </tr>
+                        
+                      </table>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>TOTAL: 1</td>
+      <td>SUCCESS: 1</td>
+      <td>FAILED: 0</td>
+      <td>ERROR: 0</td>
+      <td>SKIPPED: 0</td>
+    </tr>
+    <tr>
+      <th>Status</th>
+      <th colspan="2">Name</th>
+      <th>Response Time</th>
+      <th>Detail</th>
+    </tr>
+
+    
+    
+    <tr id="record_1_1">
+      <th class="success" style="width:5em;">success</td>
+      <td colspan="2">test re demo</td>
+      <td style="text-align:center;width:6em;">196.04 ms</td>
+      <td class="detail">
+
+        <a class="button" href="#popup_log_1_1">log</a>
+        <div id="popup_log_1_1" class="overlay">
+          <div class="popup">
+            <h2>Request and Response data</h2>
+            <a class="close" href="#record_1_1">&times;</a>
+
+            <div class="content">
+              <h3>Request:</h3>
+              <div style="overflow: auto">
+                <table>
+                  
+                    <tr>
+                      <th>url</th>
+                      <td>
+                        
+                          https://www.cnblogs.com/yoyoketang/
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>method</th>
+                      <td>
+                        
+                          GET
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>headers</th>
+                      <td>
+                        
+                          
+                          <div>
+                            <strong>User-Agent</strong>: python-requests/2.22.0
+                          </div>
+                          
+                          <div>
+                            <strong>Accept-Encoding</strong>: gzip, deflate
+                          </div>
+                          
+                          <div>
+                            <strong>Accept</strong>: */*
+                          </div>
+                          
+                          <div>
+                            <strong>Connection</strong>: keep-alive
+                          </div>
+                          
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>start_timestamp</th>
+                      <td>
+                        
+                          1590155705.4818118
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>verify</th>
+                      <td>
+                        
+                          False
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>body</th>
+                      <td>
+                        
+                          None
+                        
+                      </td>
+                    </tr>
+                  
+                </table>
+              </div>
+
+              <h3>Response:</h3>
+              <div style="overflow: auto">
+                <table>
+                    
+                      <tr>
+                        <th>status_code</th>
+                        <td>
+                          
+                            200
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>headers</th>
+                        <td>
+                          
+                            
+                            <div>
+                              <strong>User-Agent</strong>: python-requests/2.22.0
+                            </div>
+                            
+                            <div>
+                              <strong>Accept-Encoding</strong>: gzip, deflate
+                            </div>
+                            
+                            <div>
+                              <strong>Accept</strong>: */*
+                            </div>
+                            
+                            <div>
+                              <strong>Connection</strong>: keep-alive
+                            </div>
+                            
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>content_size</th>
+                        <td>
+                          
+                            20401
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>response_time_ms</th>
+                        <td>
+                          
+                            196.04
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>elapsed_ms</th>
+                        <td>
+                          
+                            192.594
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>encoding</th>
+                        <td>
+                          
+                            utf-8
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>content</th>
+                        <td>
+                          
+                            &lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;zh-cn&#34;&gt;
+&lt;head&gt;
+    &lt;meta charset=&#34;utf-8&#34; /&gt;
+    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34; /&gt;
+    &lt;meta name=&#34;referrer&#34; content=&#34;origin&#34; /&gt;
+    
+    &lt;meta http-equiv=&#34;Cache-Control&#34; content=&#34;no-transform&#34; /&gt;
+    &lt;meta http-equiv=&#34;Cache-Control&#34; content=&#34;no-siteapp&#34; /&gt;
+    &lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;IE=edge&#34; /&gt;
+    &lt;title&gt;上海-悠悠 - 博客园&lt;/title&gt;
+    &lt;link rel=&#34;shortcut icon&#34; href=&#34;//common.cnblogs.com/favicon.ico?v=20200522&#34; type=&#34;image/x-icon&#34; /&gt;
+    
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY&#34; /&gt;
+    &lt;link id=&#34;MainCss&#34; rel=&#34;stylesheet&#34; href=&#34;/skins/coffee/bundle-coffee.min.css?v=KPz7rj-c2sTAV1_ck1aDmbZcuCG3KBhyLnfvzf6nn94&#34; /&gt;
+    &lt;link type=&#34;text/css&#34; rel=&#34;stylesheet&#34; href=&#34;https://www.cnblogs.com/yoyoketang/custom.css?v=UX8&amp;#x2B;VoXBiSDs5YSRKz2E3bJcjL0=&#34; /&gt;
+    &lt;link id=&#34;mobile-style&#34; media=&#34;only screen and (max-width: 767px)&#34; type=&#34;text/css&#34; rel=&#34;stylesheet&#34; href=&#34;/skins/coffee/bundle-coffee-mobile.min.css?v=na9bpAY4yh7uEWCcrXj3vfJM3VBse8YtU6-5fUUQPz0&#34; /&gt;
+    
+    &lt;link type=&#34;application/rss+xml&#34; rel=&#34;alternate&#34; href=&#34;https://www.cnblogs.com/yoyoketang/rss&#34; /&gt;
+    &lt;link type=&#34;application/rsd+xml&#34; rel=&#34;EditURI&#34; href=&#34;https://www.cnblogs.com/yoyoketang/rsd.xml&#34; /&gt;
+    &lt;link type=&#34;application/wlwmanifest+xml&#34; rel=&#34;wlwmanifest&#34; href=&#34;https://www.cnblogs.com/yoyoketang/wlwmanifest.xml&#34; /&gt;
+    &lt;script src=&#34;https://common.cnblogs.com/scripts/jquery-2.2.0.min.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;/js/blog-common.min.js?v=SP8REHWIF7vgV2uHgC7KRDvp_ZlCHoMnAVLQHf6ba_M&#34;&gt;&lt;/script&gt;
+    &lt;script&gt;
+        var currentBlogId = 319138;
+        var currentBlogApp = &#39;yoyoketang&#39;;
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = &#39;coffee&#39;;
+    &lt;/script&gt;
+    
+    
+    
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a name=&#34;top&#34;&gt;&lt;/a&gt;
+    
+    
+&lt;!--done--&gt;
+&lt;div id=&#34;home&#34;&gt;
+&lt;div id=&#34;header&#34;&gt;
+	&lt;div id=&#34;blogTitle&#34;&gt;
+	&lt;a href=&#34;https://www.cnblogs.com/yoyoketang/&#34;&gt;&lt;img id=&#34;blogLogo&#34; src=&#34;/skins/custom/images/logo.gif&#34; alt=&#34;返回主页&#34; /&gt;&lt;/a&gt;			
+		
+&lt;!--done--&gt;
+&lt;h1&gt;&lt;a id=&#34;Header1_HeaderTitle&#34; class=&#34;headermaintitle HeaderMainTitle&#34; href=&#34;https://www.cnblogs.com/yoyoketang/&#34;&gt;上海-悠悠&lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2&gt;
+2020年第三期《python接口自动化+测试开发》课程 4月5号开学&lt;br&gt; 报名联系QQ：283340479
+&lt;/h2&gt;
+
+
+
+
+		
+	&lt;/div&gt;&lt;!--end: blogTitle 博客的标题和副标题 --&gt;
+&lt;/div&gt;&lt;!--end: header 头部 --&gt;
+
+&lt;div id=&#34;main&#34;&gt;
+	&lt;div id=&#34;mainContent&#34;&gt;
+	&lt;div class=&#34;forFlow&#34;&gt;
+		&lt;div id=&#34;navigator&#34;&gt;
+			
+&lt;ul id=&#34;navList&#34;&gt;
+	&lt;li&gt;&lt;a id=&#34;blog_nav_sitehome&#34; class=&#34;menu&#34; href=&#34;https://www.cnblogs.com/&#34;&gt;
+博客园&lt;/a&gt;
+&lt;/li&gt;
+	&lt;li&gt;
+&lt;a id=&#34;blog_nav_myhome&#34; class=&#34;menu&#34; href=&#34;https://www.cnblogs.com/yoyoketang/&#34;&gt;
+首页&lt;/a&gt;
+&lt;/li&gt;
+	&lt;li&gt;
+
+&lt;a id=&#34;blog_nav_newpost&#34; class=&#34;menu&#34; href=&#34;https://i.cnblogs.com/EditPosts.aspx?opt=1&#34;&gt;
+新随笔&lt;/a&gt;
+&lt;/li&gt;
+	&lt;li&gt;
+&lt;a id=&#34;blog_nav_contact&#34; class=&#34;menu&#34; href=&#34;https://msg.cnblogs.com/send/%E4%B8%8A%E6%B5%B7-%E6%82%A0%E6%82%A0&#34;&gt;
+联系&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;
+&lt;a id=&#34;blog_nav_admin&#34; class=&#34;menu&#34; href=&#34;https://i.cnblogs.com/&#34;&gt;
+管理&lt;/a&gt;
+&lt;/li&gt;
+	&lt;li&gt;
+&lt;a id=&#34;blog_nav_rss&#34; class=&#34;menu&#34; href=&#34;javascript:void(0)&#34; data-rss=&#34;https://www.cnblogs.com/yoyoketang/rss/&#34;&gt;
+订阅&lt;/a&gt;
+	
+&lt;a id=&#34;blog_nav_rss_image&#34; href=&#34;https://www.cnblogs.com/yoyoketang/rss/&#34;&gt;
+    &lt;img src=&#34;/skins/coffee/images/xml.gif&#34; alt=&#34;订阅&#34; /&gt;
+&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+			&lt;div class=&#34;blogStats&#34;&gt;
+				
+				&lt;!--done--&gt;
+随笔- 
+514&amp;nbsp;
+文章- 
+2&amp;nbsp;
+评论- 
+1003&amp;nbsp;
+
+
+
+				
+			&lt;/div&gt;&lt;!--end: blogStats --&gt;
+		&lt;/div&gt;&lt;!--end: navigator 博客导航栏 --&gt;
+		
+&lt;!--done--&gt;
+
+
+
+
+		
+
+
+&lt;div class=&#34;day&#34;&gt;
+    &lt;div class=&#34;dayTitle&#34;&gt;
+        &lt;a href=&#34;https://www.cnblogs.com/yoyoketang/archive/2020/03/04.html&#34;&gt;2020年3月4日&lt;/a&gt;
+    &lt;/div&gt;
+
+
+        &lt;div class=&#34;postTitle&#34;&gt;
+            
+
+&lt;a class=&#34;postTitle2&#34; href=&#34;https://www.cnblogs.com/yoyoketang/p/12417056.html&#34;&gt;
+[置顶]    2020年第三期《python接口自动化+测试开发》课程，4月5号开学（火热报名中！）
+&lt;/a&gt;
+
+        &lt;/div&gt;
+        &lt;div class=&#34;postCon&#34;&gt;
+
+    &lt;div class=&#34;c_b_p_desc&#34;&gt;
+摘要：2020年第三期《python接口自动化+python测试开发》课程，4月5号开学（火热报名中！） 主讲老师：上海 悠悠 上课方式：QQ群视频在线教学，方便交流 本期上课时间：4月5号 6月27号，每周六、周日晚上20:30 22:30 报名费：报名费3000一人（周期3个月） 联系QQ：28334            &lt;a href=&#34;https://www.cnblogs.com/yoyoketang/p/12417056.html&#34; class=&#34;c_b_p_desc_readmore&#34;&gt;阅读全文&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;postDesc&#34;&gt;posted @ 2020-03-04 23:41
+上海-悠悠
+&lt;span class=&#34;post-view-count&#34;&gt;阅读(5418)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-comment-count&#34;&gt;评论(0)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-digg-count&#34;&gt;推荐(1)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;a href=&#34;https://i.cnblogs.com/EditPosts.aspx?postid=12417056&#34; rel=&#34;nofollow&#34;&gt;
+    编辑
+&lt;/a&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+
+
+		
+
+
+&lt;div class=&#34;day&#34;&gt;
+    &lt;div class=&#34;dayTitle&#34;&gt;
+        &lt;a href=&#34;https://www.cnblogs.com/yoyoketang/archive/2019/01/22.html&#34;&gt;2019年1月22日&lt;/a&gt;
+    &lt;/div&gt;
+
+
+        &lt;div class=&#34;postTitle&#34;&gt;
+            
+
+&lt;a class=&#34;postTitle2&#34; href=&#34;https://www.cnblogs.com/yoyoketang/p/10302295.html&#34;&gt;
+[置顶]    《2019测试面试题-上海悠悠.pdf》
+&lt;/a&gt;
+
+        &lt;/div&gt;
+        &lt;div class=&#34;postCon&#34;&gt;
+
+    &lt;div class=&#34;c_b_p_desc&#34;&gt;
+摘要：前言 面试测试岗位一般会有笔试题，笔试题考SQL和编程基础比较多，小编最近收集了多家公司的测试面试题，整理成一个文档供大家参考。 2018年下半年一直不太平，听到最多的就是“p2p暴雷”，“xx平台跑路”，紧接着年底就是“裁员”、“xx部门就地解散”、“欠薪”，很多小伙伴已经提前回家准备过冬了，等待            &lt;a href=&#34;https://www.cnblogs.com/yoyoketang/p/10302295.html&#34; class=&#34;c_b_p_desc_readmore&#34;&gt;阅读全文&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;postDesc&#34;&gt;posted @ 2019-01-22 10:16
+上海-悠悠
+&lt;span class=&#34;post-view-count&#34;&gt;阅读(9559)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-comment-count&#34;&gt;评论(9)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-digg-count&#34;&gt;推荐(1)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;a href=&#34;https://i.cnblogs.com/EditPosts.aspx?postid=10302295&#34; rel=&#34;nofollow&#34;&gt;
+    编辑
+&lt;/a&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+
+
+		
+
+
+&lt;div class=&#34;day&#34;&gt;
+    &lt;div class=&#34;dayTitle&#34;&gt;
+        &lt;a href=&#34;https://www.cnblogs.com/yoyoketang/archive/2020/05/21.html&#34;&gt;2020年5月21日&lt;/a&gt;
+    &lt;/div&gt;
+
+
+        &lt;div class=&#34;postTitle&#34;&gt;
+            
+
+&lt;a class=&#34;postTitle2&#34; href=&#34;https://www.cnblogs.com/yoyoketang/p/12931419.html&#34;&gt;
+    Cypress web自动化21-如何在多个tests之间共享cookies
+&lt;/a&gt;
+
+        &lt;/div&gt;
+        &lt;div class=&#34;postCon&#34;&gt;
+
+    &lt;div class=&#34;c_b_p_desc&#34;&gt;
+摘要：前言 Cypress 默认每个用例开始之前会清空所有的cookies，保证每个用例的独立性和干净的环境。 但是我们希望在一个js文件下写多个测试用例的时候，希望只调用一次登录， 记住cookies，后面的用例都默认是登录状态，这样测试的效率高一些。 实现cookies共享有2种实现方式 1.Cypr            &lt;a href=&#34;https://www.cnblogs.com/yoyoketang/p/12931419.html&#34; class=&#34;c_b_p_desc_readmore&#34;&gt;阅读全文&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;postDesc&#34;&gt;posted @ 2020-05-21 16:07
+上海-悠悠
+&lt;span class=&#34;post-view-count&#34;&gt;阅读(46)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-comment-count&#34;&gt;评论(0)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-digg-count&#34;&gt;推荐(0)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;a href=&#34;https://i.cnblogs.com/EditPosts.aspx?postid=12931419&#34; rel=&#34;nofollow&#34;&gt;
+    编辑
+&lt;/a&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+            &lt;div class=&#34;postSeparator&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;postTitle&#34;&gt;
+            
+
+&lt;a class=&#34;postTitle2&#34; href=&#34;https://www.cnblogs.com/yoyoketang/p/12929779.html&#34;&gt;
+    Cypress web自动化20-a标签超链接跨域问题
+&lt;/a&gt;
+
+        &lt;/div&gt;
+        &lt;div class=&#34;postCon&#34;&gt;
+
+    &lt;div class=&#34;c_b_p_desc&#34;&gt;
+摘要：前言 cypress 上默认访问一个跨域的网页会出现异常： Cypress detected a cross origin error happened on page load A cross origin error happens when your application navigates            &lt;a href=&#34;https://www.cnblogs.com/yoyoketang/p/12929779.html&#34; class=&#34;c_b_p_desc_readmore&#34;&gt;阅读全文&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;postDesc&#34;&gt;posted @ 2020-05-21 11:54
+上海-悠悠
+&lt;span class=&#34;post-view-count&#34;&gt;阅读(55)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-comment-count&#34;&gt;评论(0)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-digg-count&#34;&gt;推荐(0)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;a href=&#34;https://i.cnblogs.com/EditPosts.aspx?postid=12929779&#34; rel=&#34;nofollow&#34;&gt;
+    编辑
+&lt;/a&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+
+
+		
+
+
+&lt;div class=&#34;day&#34;&gt;
+    &lt;div class=&#34;dayTitle&#34;&gt;
+        &lt;a href=&#34;https://www.cnblogs.com/yoyoketang/archive/2020/05/20.html&#34;&gt;2020年5月20日&lt;/a&gt;
+    &lt;/div&gt;
+
+
+        &lt;div class=&#34;postTitle&#34;&gt;
+            
+
+&lt;a class=&#34;postTitle2&#34; href=&#34;https://www.cnblogs.com/yoyoketang/p/12927200.html&#34;&gt;
+    Cypress web自动化19-自定义命令，把登陆当公共方法commands.js
+&lt;/a&gt;
+
+        &lt;/div&gt;
+        &lt;div class=&#34;postCon&#34;&gt;
+
+    &lt;div class=&#34;c_b_p_desc&#34;&gt;
+摘要：前言 测试一个web网站的时候，通常需要先登录。要是每个脚本都写一次登录流程，太麻烦了，于是我们会想到写一个公共函数，这样每次去调用函数即可。 cypress 里面提供了一个 commands.js 可以自定义命令，如使用cy.login(user,password)就能调用了 登录 前面写了一个登            &lt;a href=&#34;https://www.cnblogs.com/yoyoketang/p/12927200.html&#34; class=&#34;c_b_p_desc_readmore&#34;&gt;阅读全文&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;postDesc&#34;&gt;posted @ 2020-05-20 23:21
+上海-悠悠
+&lt;span class=&#34;post-view-count&#34;&gt;阅读(61)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-comment-count&#34;&gt;评论(0)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-digg-count&#34;&gt;推荐(0)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;a href=&#34;https://i.cnblogs.com/EditPosts.aspx?postid=12927200&#34; rel=&#34;nofollow&#34;&gt;
+    编辑
+&lt;/a&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+            &lt;div class=&#34;postSeparator&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;postTitle&#34;&gt;
+            
+
+&lt;a class=&#34;postTitle2&#34; href=&#34;https://www.cnblogs.com/yoyoketang/p/12925466.html&#34;&gt;
+    Cypress web自动化18-cypress.json文件配置baseUrl
+&lt;/a&gt;
+
+        &lt;/div&gt;
+        &lt;div class=&#34;postCon&#34;&gt;
+
+    &lt;div class=&#34;c_b_p_desc&#34;&gt;
+摘要：前言 当我们测试一个web网站的时候，一般最好设置一个baseUrl地址，这样方便维护。 一旦部署环境发生了改变，就不需要去基本里面去查找，秩序更改cypress.json文件即可 cypress.json文件 如果我的web服务部署环境是 于是在项目的根目录找到cypress.json文件 设置窗            &lt;a href=&#34;https://www.cnblogs.com/yoyoketang/p/12925466.html&#34; class=&#34;c_b_p_desc_readmore&#34;&gt;阅读全文&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;postDesc&#34;&gt;posted @ 2020-05-20 19:01
+上海-悠悠
+&lt;span class=&#34;post-view-count&#34;&gt;阅读(36)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-comment-count&#34;&gt;评论(0)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-digg-count&#34;&gt;推荐(0)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;a href=&#34;https://i.cnblogs.com/EditPosts.aspx?postid=12925466&#34; rel=&#34;nofollow&#34;&gt;
+    编辑
+&lt;/a&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+            &lt;div class=&#34;postSeparator&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;postTitle&#34;&gt;
+            
+
+&lt;a class=&#34;postTitle2&#34; href=&#34;https://www.cnblogs.com/yoyoketang/p/12925152.html&#34;&gt;
+     Linux学习29-awk提取log日志信息，统计日志里面ip访问次数排序
+&lt;/a&gt;
+
+        &lt;/div&gt;
+        &lt;div class=&#34;postCon&#34;&gt;
+
+    &lt;div class=&#34;c_b_p_desc&#34;&gt;
+摘要：前言 有一段log日志，需从日志里面分析，统计IP访问次数排序前10名，查看是否有异常攻击。 日志提取 如下日志，这段日志包含的信息内容较多，我们希望提取ip,访问时间，请求方式，访问路径（不带参数），状态码 可以使用 awk 对日志内容格式化输出，根据空格格式化输出,第一列是ip,也就是 ,其它列            &lt;a href=&#34;https://www.cnblogs.com/yoyoketang/p/12925152.html&#34; class=&#34;c_b_p_desc_readmore&#34;&gt;阅读全文&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;postDesc&#34;&gt;posted @ 2020-05-20 18:03
+上海-悠悠
+&lt;span class=&#34;post-view-count&#34;&gt;阅读(31)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-comment-count&#34;&gt;评论(0)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-digg-count&#34;&gt;推荐(0)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;a href=&#34;https://i.cnblogs.com/EditPosts.aspx?postid=12925152&#34; rel=&#34;nofollow&#34;&gt;
+    编辑
+&lt;/a&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+
+
+		
+
+
+&lt;div class=&#34;day&#34;&gt;
+    &lt;div class=&#34;dayTitle&#34;&gt;
+        &lt;a href=&#34;https://www.cnblogs.com/yoyoketang/archive/2020/05/18.html&#34;&gt;2020年5月18日&lt;/a&gt;
+    &lt;/div&gt;
+
+
+        &lt;div class=&#34;postTitle&#34;&gt;
+            
+
+&lt;a class=&#34;postTitle2&#34; href=&#34;https://www.cnblogs.com/yoyoketang/p/12913776.html&#34;&gt;
+     docker学习14-配置 docker 阿里云/腾讯云加速器
+&lt;/a&gt;
+
+        &lt;/div&gt;
+        &lt;div class=&#34;postCon&#34;&gt;
+
+    &lt;div class=&#34;c_b_p_desc&#34;&gt;
+摘要：前言 在使用 docker 拉取 docker 仓库里面的镜像时候，国内使用官方Docker Hub仓库实在是太慢，或者出现找不到镜像的情况，需配置docker镜像下载源。 前提条件：Docker客户端版本大于 1.10.0 阿里云 如果你是阿里云的小伙伴，先检查自己的 docker 版本号，一般默            &lt;a href=&#34;https://www.cnblogs.com/yoyoketang/p/12913776.html&#34; class=&#34;c_b_p_desc_readmore&#34;&gt;阅读全文&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;postDesc&#34;&gt;posted @ 2020-05-18 23:21
+上海-悠悠
+&lt;span class=&#34;post-view-count&#34;&gt;阅读(61)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-comment-count&#34;&gt;评论(0)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-digg-count&#34;&gt;推荐(0)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;a href=&#34;https://i.cnblogs.com/EditPosts.aspx?postid=12913776&#34; rel=&#34;nofollow&#34;&gt;
+    编辑
+&lt;/a&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+
+
+		
+
+
+&lt;div class=&#34;day&#34;&gt;
+    &lt;div class=&#34;dayTitle&#34;&gt;
+        &lt;a href=&#34;https://www.cnblogs.com/yoyoketang/archive/2020/05/14.html&#34;&gt;2020年5月14日&lt;/a&gt;
+    &lt;/div&gt;
+
+
+        &lt;div class=&#34;postTitle&#34;&gt;
+            
+
+&lt;a class=&#34;postTitle2&#34; href=&#34;https://www.cnblogs.com/yoyoketang/p/12891907.html&#34;&gt;
+    Cypress web自动化17-fixture加载json文件数据
+&lt;/a&gt;
+
+        &lt;/div&gt;
+        &lt;div class=&#34;postCon&#34;&gt;
+
+    &lt;div class=&#34;c_b_p_desc&#34;&gt;
+摘要：前言 面试时间经常被问到：你的测试数据放哪？有没有做到测试数据和代码的分类？ Cypress 使用cypress/fixture 目录存放 json 文件数据， cy.fixture() 加载测试数据。 官方文档参考 &amp;quot;https://docs.cypress.io/api/commands/fix            &lt;a href=&#34;https://www.cnblogs.com/yoyoketang/p/12891907.html&#34; class=&#34;c_b_p_desc_readmore&#34;&gt;阅读全文&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;postDesc&#34;&gt;posted @ 2020-05-14 22:47
+上海-悠悠
+&lt;span class=&#34;post-view-count&#34;&gt;阅读(92)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-comment-count&#34;&gt;评论(0)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-digg-count&#34;&gt;推荐(0)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;a href=&#34;https://i.cnblogs.com/EditPosts.aspx?postid=12891907&#34; rel=&#34;nofollow&#34;&gt;
+    编辑
+&lt;/a&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+
+
+		
+
+
+&lt;div class=&#34;day&#34;&gt;
+    &lt;div class=&#34;dayTitle&#34;&gt;
+        &lt;a href=&#34;https://www.cnblogs.com/yoyoketang/archive/2020/05/13.html&#34;&gt;2020年5月13日&lt;/a&gt;
+    &lt;/div&gt;
+
+
+        &lt;div class=&#34;postTitle&#34;&gt;
+            
+
+&lt;a class=&#34;postTitle2&#34; href=&#34;https://www.cnblogs.com/yoyoketang/p/12885705.html&#34;&gt;
+    Cypress web自动化16-参数化，数据驱动测试案例
+&lt;/a&gt;
+
+        &lt;/div&gt;
+        &lt;div class=&#34;postCon&#34;&gt;
+
+    &lt;div class=&#34;c_b_p_desc&#34;&gt;
+摘要：前言 自动化测试里面参数化思想是非常重要的，同一类型的测试，只需维护不同的数据就可以了。 对每组测试数据自动生成对应的测试用例，并且每个测试用例的结果互不影响，不能因为第一个失败了，后面的用例就不执行了。 自动生成用例 可以使用JavaScript动态生成测试，以下是官方文档给的案例 这段代码会自动            &lt;a href=&#34;https://www.cnblogs.com/yoyoketang/p/12885705.html&#34; class=&#34;c_b_p_desc_readmore&#34;&gt;阅读全文&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;postDesc&#34;&gt;posted @ 2020-05-13 23:31
+上海-悠悠
+&lt;span class=&#34;post-view-count&#34;&gt;阅读(116)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-comment-count&#34;&gt;评论(0)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-digg-count&#34;&gt;推荐(0)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;a href=&#34;https://i.cnblogs.com/EditPosts.aspx?postid=12885705&#34; rel=&#34;nofollow&#34;&gt;
+    编辑
+&lt;/a&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+            &lt;div class=&#34;postSeparator&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;postTitle&#34;&gt;
+            
+
+&lt;a class=&#34;postTitle2&#34; href=&#34;https://www.cnblogs.com/yoyoketang/p/12883950.html&#34;&gt;
+    Cypress web自动化15-Hooks使用方法
+&lt;/a&gt;
+
+        &lt;/div&gt;
+        &lt;div class=&#34;postCon&#34;&gt;
+
+    &lt;div class=&#34;c_b_p_desc&#34;&gt;
+摘要：前言 Cypress 提供了 hooks 函数，方便我们在组织测试用例的时候，设置用例的前置操作和后置清理。 类似于 python 的 unittest 里面的 setUp 和 setUpclass 功能 Hooks Cypress 提供了 hooks 函数。 这些有助于设置要在一组测试之前或每个测            &lt;a href=&#34;https://www.cnblogs.com/yoyoketang/p/12883950.html&#34; class=&#34;c_b_p_desc_readmore&#34;&gt;阅读全文&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;postDesc&#34;&gt;posted @ 2020-05-13 17:57
+上海-悠悠
+&lt;span class=&#34;post-view-count&#34;&gt;阅读(74)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-comment-count&#34;&gt;评论(0)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-digg-count&#34;&gt;推荐(0)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;a href=&#34;https://i.cnblogs.com/EditPosts.aspx?postid=12883950&#34; rel=&#34;nofollow&#34;&gt;
+    编辑
+&lt;/a&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+
+
+		
+
+
+&lt;div class=&#34;day&#34;&gt;
+    &lt;div class=&#34;dayTitle&#34;&gt;
+        &lt;a href=&#34;https://www.cnblogs.com/yoyoketang/archive/2020/05/12.html&#34;&gt;2020年5月12日&lt;/a&gt;
+    &lt;/div&gt;
+
+
+        &lt;div class=&#34;postTitle&#34;&gt;
+            
+
+&lt;a class=&#34;postTitle2&#34; href=&#34;https://www.cnblogs.com/yoyoketang/p/12878097.html&#34;&gt;
+    Cypress web自动化14-window窗口属性
+&lt;/a&gt;
+
+        &lt;/div&gt;
+        &lt;div class=&#34;postCon&#34;&gt;
+
+    &lt;div class=&#34;c_b_p_desc&#34;&gt;
+摘要：前言 在 Cypress 中引用窗口和窗口上其他属性的示例 cy.window() 要获取全局窗口对象，请使用cy.window（）命令。 cy.document() To get the document object, use the cy.document() command. 要获取docu            &lt;a href=&#34;https://www.cnblogs.com/yoyoketang/p/12878097.html&#34; class=&#34;c_b_p_desc_readmore&#34;&gt;阅读全文&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;postDesc&#34;&gt;posted @ 2020-05-12 19:11
+上海-悠悠
+&lt;span class=&#34;post-view-count&#34;&gt;阅读(82)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-comment-count&#34;&gt;评论(0)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;span class=&#34;post-digg-count&#34;&gt;推荐(0)&lt;/span&gt;&lt;text&gt; &lt;/text&gt;
+&lt;a href=&#34;https://i.cnblogs.com/EditPosts.aspx?postid=12878097&#34; rel=&#34;nofollow&#34;&gt;
+    编辑
+&lt;/a&gt;
+&lt;/div&gt;
+        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;topicListFooter&#34;&gt;
+    &lt;div id=&#34;nav_next_page&#34;&gt;
+        
+    &lt;a href=&#34;https://www.cnblogs.com/yoyoketang/default.html?page=2&#34;&gt;
+        下一页
+    &lt;/a&gt;
+
+    &lt;/div&gt;    
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+	&lt;/div&gt;&lt;!--end: forFlow --&gt;
+	&lt;/div&gt;&lt;!--end: mainContent 主体内容容器--&gt;
+
+	&lt;div id=&#34;sideBar&#34;&gt;
+		&lt;div id=&#34;sideBarMain&#34;&gt;
+			
+&lt;div id=&#34;sidebar_news&#34; class=&#34;newsItem&#34;&gt;
+            &lt;script&gt;loadBlogNews();&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;sidebar_ad&#34;&gt;&lt;/div&gt;
+			&lt;div id=&#34;calendar&#34;&gt;&lt;div id=&#34;blog-calendar&#34; style=&#34;display:none&#34;&gt;&lt;/div&gt;&lt;script&gt;loadBlogDefaultCalendar();&lt;/script&gt;&lt;/div&gt;
+			
+			&lt;DIV id=&#34;leftcontentcontainer&#34;&gt;
+				&lt;div id=&#34;blog-sidecolumn&#34;&gt;&lt;/div&gt;
+                    &lt;script&gt;loadBlogSideColumn();&lt;/script&gt;
+			&lt;/DIV&gt;
+			
+		&lt;/div&gt;&lt;!--end: sideBarMain --&gt;
+	&lt;/div&gt;&lt;!--end: sideBar 侧边栏容器 --&gt;
+	&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+	&lt;/div&gt;&lt;!--end: main --&gt;
+	&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+	&lt;div id=&#34;footer&#34;&gt;
+		&lt;!--done--&gt;
+Copyright &amp;copy; 2020 上海-悠悠
+&lt;br /&gt;&lt;span id=&#34;poweredby&#34;&gt;Powered by .NET Core on Kubernetes&lt;/span&gt;
+
+
+
+	&lt;/div&gt;&lt;!--end: footer --&gt;
+&lt;/div&gt;&lt;!--end: home 自定义的最大容器 --&gt;
+
+
+    
+&lt;/body&gt;
+&lt;/html&gt;
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>content_type</th>
+                        <td>
+                          
+                            
+                              <pre></pre>
+                            
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>ok</th>
+                        <td>
+                          
+                            True
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>url</th>
+                        <td>
+                          
+                            https://www.cnblogs.com/yoyoketang/
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>reason</th>
+                        <td>
+                          
+                            OK
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>cookies</th>
+                        <td>
+                          
+                            {}
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>text</th>
+                        <td>
+                          
+                            <!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>上海-悠悠 - 博客园</title>
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    <link id="MainCss" rel="stylesheet" href="/skins/coffee/bundle-coffee.min.css?v=KPz7rj-c2sTAV1_ck1aDmbZcuCG3KBhyLnfvzf6nn94" />
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/yoyoketang/custom.css?v=UX8&#x2B;VoXBiSDs5YSRKz2E3bJcjL0=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/coffee/bundle-coffee-mobile.min.css?v=na9bpAY4yh7uEWCcrXj3vfJM3VBse8YtU6-5fUUQPz0" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/yoyoketang/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/yoyoketang/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/yoyoketang/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=SP8REHWIF7vgV2uHgC7KRDvp_ZlCHoMnAVLQHf6ba_M"></script>
+    <script>
+        var currentBlogId = 319138;
+        var currentBlogApp = 'yoyoketang';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'coffee';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+	<a href="https://www.cnblogs.com/yoyoketang/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>			
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/yoyoketang/">上海-悠悠</a>
+</h1>
+<h2>
+2020年第三期《python接口自动化+测试开发》课程 4月5号开学<br> 报名联系QQ：283340479
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="navigator">
+			
+<ul id="navList">
+	<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+	<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/yoyoketang/">
+首页</a>
+</li>
+	<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+	<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E4%B8%8A%E6%B5%B7-%E6%82%A0%E6%82%A0">
+联系</a></li>
+	<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+	<li>
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/yoyoketang/rss/">
+订阅</a>
+	
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/yoyoketang/rss/">
+    <img src="/skins/coffee/images/xml.gif" alt="订阅" />
+</a></li>
+</ul>
+
+
+
+			<div class="blogStats">
+				
+				<!--done-->
+随笔- 
+514&nbsp;
+文章- 
+2&nbsp;
+评论- 
+1003&nbsp;
+
+
+
+				
+			</div><!--end: blogStats -->
+		</div><!--end: navigator 博客导航栏 -->
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/yoyoketang/archive/2020/03/04.html">2020年3月4日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yoyoketang/p/12417056.html">
+[置顶]    2020年第三期《python接口自动化+测试开发》课程，4月5号开学（火热报名中！）
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：2020年第三期《python接口自动化+python测试开发》课程，4月5号开学（火热报名中！） 主讲老师：上海 悠悠 上课方式：QQ群视频在线教学，方便交流 本期上课时间：4月5号 6月27号，每周六、周日晚上20:30 22:30 报名费：报名费3000一人（周期3个月） 联系QQ：28334            <a href="https://www.cnblogs.com/yoyoketang/p/12417056.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-03-04 23:41
+上海-悠悠
+<span class="post-view-count">阅读(5418)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(1)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12417056" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/yoyoketang/archive/2019/01/22.html">2019年1月22日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yoyoketang/p/10302295.html">
+[置顶]    《2019测试面试题-上海悠悠.pdf》
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 面试测试岗位一般会有笔试题，笔试题考SQL和编程基础比较多，小编最近收集了多家公司的测试面试题，整理成一个文档供大家参考。 2018年下半年一直不太平，听到最多的就是“p2p暴雷”，“xx平台跑路”，紧接着年底就是“裁员”、“xx部门就地解散”、“欠薪”，很多小伙伴已经提前回家准备过冬了，等待            <a href="https://www.cnblogs.com/yoyoketang/p/10302295.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2019-01-22 10:16
+上海-悠悠
+<span class="post-view-count">阅读(9559)</span><text> </text>
+<span class="post-comment-count">评论(9)</span><text> </text>
+<span class="post-digg-count">推荐(1)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10302295" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/yoyoketang/archive/2020/05/21.html">2020年5月21日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yoyoketang/p/12931419.html">
+    Cypress web自动化21-如何在多个tests之间共享cookies
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 Cypress 默认每个用例开始之前会清空所有的cookies，保证每个用例的独立性和干净的环境。 但是我们希望在一个js文件下写多个测试用例的时候，希望只调用一次登录， 记住cookies，后面的用例都默认是登录状态，这样测试的效率高一些。 实现cookies共享有2种实现方式 1.Cypr            <a href="https://www.cnblogs.com/yoyoketang/p/12931419.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-21 16:07
+上海-悠悠
+<span class="post-view-count">阅读(46)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12931419" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yoyoketang/p/12929779.html">
+    Cypress web自动化20-a标签超链接跨域问题
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 cypress 上默认访问一个跨域的网页会出现异常： Cypress detected a cross origin error happened on page load A cross origin error happens when your application navigates            <a href="https://www.cnblogs.com/yoyoketang/p/12929779.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-21 11:54
+上海-悠悠
+<span class="post-view-count">阅读(55)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12929779" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/yoyoketang/archive/2020/05/20.html">2020年5月20日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yoyoketang/p/12927200.html">
+    Cypress web自动化19-自定义命令，把登陆当公共方法commands.js
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 测试一个web网站的时候，通常需要先登录。要是每个脚本都写一次登录流程，太麻烦了，于是我们会想到写一个公共函数，这样每次去调用函数即可。 cypress 里面提供了一个 commands.js 可以自定义命令，如使用cy.login(user,password)就能调用了 登录 前面写了一个登            <a href="https://www.cnblogs.com/yoyoketang/p/12927200.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-20 23:21
+上海-悠悠
+<span class="post-view-count">阅读(61)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12927200" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yoyoketang/p/12925466.html">
+    Cypress web自动化18-cypress.json文件配置baseUrl
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 当我们测试一个web网站的时候，一般最好设置一个baseUrl地址，这样方便维护。 一旦部署环境发生了改变，就不需要去基本里面去查找，秩序更改cypress.json文件即可 cypress.json文件 如果我的web服务部署环境是 于是在项目的根目录找到cypress.json文件 设置窗            <a href="https://www.cnblogs.com/yoyoketang/p/12925466.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-20 19:01
+上海-悠悠
+<span class="post-view-count">阅读(36)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12925466" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yoyoketang/p/12925152.html">
+     Linux学习29-awk提取log日志信息，统计日志里面ip访问次数排序
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 有一段log日志，需从日志里面分析，统计IP访问次数排序前10名，查看是否有异常攻击。 日志提取 如下日志，这段日志包含的信息内容较多，我们希望提取ip,访问时间，请求方式，访问路径（不带参数），状态码 可以使用 awk 对日志内容格式化输出，根据空格格式化输出,第一列是ip,也就是 ,其它列            <a href="https://www.cnblogs.com/yoyoketang/p/12925152.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-20 18:03
+上海-悠悠
+<span class="post-view-count">阅读(31)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12925152" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/yoyoketang/archive/2020/05/18.html">2020年5月18日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yoyoketang/p/12913776.html">
+     docker学习14-配置 docker 阿里云/腾讯云加速器
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 在使用 docker 拉取 docker 仓库里面的镜像时候，国内使用官方Docker Hub仓库实在是太慢，或者出现找不到镜像的情况，需配置docker镜像下载源。 前提条件：Docker客户端版本大于 1.10.0 阿里云 如果你是阿里云的小伙伴，先检查自己的 docker 版本号，一般默            <a href="https://www.cnblogs.com/yoyoketang/p/12913776.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-18 23:21
+上海-悠悠
+<span class="post-view-count">阅读(61)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12913776" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/yoyoketang/archive/2020/05/14.html">2020年5月14日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yoyoketang/p/12891907.html">
+    Cypress web自动化17-fixture加载json文件数据
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 面试时间经常被问到：你的测试数据放哪？有没有做到测试数据和代码的分类？ Cypress 使用cypress/fixture 目录存放 json 文件数据， cy.fixture() 加载测试数据。 官方文档参考 &quot;https://docs.cypress.io/api/commands/fix            <a href="https://www.cnblogs.com/yoyoketang/p/12891907.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-14 22:47
+上海-悠悠
+<span class="post-view-count">阅读(92)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12891907" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/yoyoketang/archive/2020/05/13.html">2020年5月13日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yoyoketang/p/12885705.html">
+    Cypress web自动化16-参数化，数据驱动测试案例
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 自动化测试里面参数化思想是非常重要的，同一类型的测试，只需维护不同的数据就可以了。 对每组测试数据自动生成对应的测试用例，并且每个测试用例的结果互不影响，不能因为第一个失败了，后面的用例就不执行了。 自动生成用例 可以使用JavaScript动态生成测试，以下是官方文档给的案例 这段代码会自动            <a href="https://www.cnblogs.com/yoyoketang/p/12885705.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-13 23:31
+上海-悠悠
+<span class="post-view-count">阅读(116)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12885705" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yoyoketang/p/12883950.html">
+    Cypress web自动化15-Hooks使用方法
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 Cypress 提供了 hooks 函数，方便我们在组织测试用例的时候，设置用例的前置操作和后置清理。 类似于 python 的 unittest 里面的 setUp 和 setUpclass 功能 Hooks Cypress 提供了 hooks 函数。 这些有助于设置要在一组测试之前或每个测            <a href="https://www.cnblogs.com/yoyoketang/p/12883950.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-13 17:57
+上海-悠悠
+<span class="post-view-count">阅读(74)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12883950" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/yoyoketang/archive/2020/05/12.html">2020年5月12日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yoyoketang/p/12878097.html">
+    Cypress web自动化14-window窗口属性
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 在 Cypress 中引用窗口和窗口上其他属性的示例 cy.window() 要获取全局窗口对象，请使用cy.window（）命令。 cy.document() To get the document object, use the cy.document() command. 要获取docu            <a href="https://www.cnblogs.com/yoyoketang/p/12878097.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-12 19:11
+上海-悠悠
+<span class="post-view-count">阅读(82)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12878097" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/yoyoketang/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+			<div id="calendar"><div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script></div>
+			
+			<DIV id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</DIV>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 上海-悠悠
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>json</th>
+                        <td>
+                          
+                            None
+                          
+                        </td>
+                      </tr>
+                    
+                  </table>
+              </div>
+
+              <h3>Validators:</h3>
+              <div style="overflow: auto">
+                  <table>
+                    <tr>
+                      <th>check</th>
+                      <th>comparator</th>
+                      <th>expect value</th>
+                      <th>actual value</th>
+                    </tr>
+                    
+                    <tr>
+                      
+                      <td class="passed">
+                      
+                        status_code
+                      </td>
+                      <td>eq</td>
+                      <td>200</td>
+                      <td>200</td>
+                    </tr>
+                    
+                    <tr>
+                      
+                      <td class="passed">
+                      
+                        <title>(.+?)</title>
+                      </td>
+                      <td>eq</td>
+                      <td>上海-悠悠 - 博客园</td>
+                      <td>上海-悠悠 - 博客园</td>
+                    </tr>
+                    
+                  </table>
+              </div>
+
+              <h3>Statistics:</h3>
+              <div style="overflow: auto">
+                <table>
+                  <tr>
+                      <th>content_size(bytes)</th>
+                      <td>20401</td>
+                    </tr>
+                  <tr>
+                    <th>response_time(ms)</th>
+                    <td>196.04</td>
+                  </tr>
+                  <tr>
+                    <th>elapsed(ms)</th>
+                    <td>192.594</td>
+                  </tr>
+                </table>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        
+
+      </td>
+    </tr>
+  
+  </table>
+  
+</body>

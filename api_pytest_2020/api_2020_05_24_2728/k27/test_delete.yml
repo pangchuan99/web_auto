@@ -1,0 +1,39 @@
+
+
+
+- config:
+    name: 删除案例
+    request:
+        base_url: http://49.235.92.12:6009
+    variables:
+      #card_id 可以设置变量   在数据库语句中也是可以的
+       card_id: 100
+       delete_sql: DELETE FROM apiapp_card WHERE id="$card_id"
+       insert_sql: INSERT INTO `apps`.`apiapp_card`(`id`, `card_id`, `card_user`, `add_time`) VALUES ($card_id, '', 'test123', '2019-12-17');
+
+
+- test:
+    name: 删除成功
+    request:
+      method: DELETE
+      url: /api_2020_05_30_2930/v1/bandcards/$card_id/
+    validate:
+    -eq: [status_code, 204]
+
+    setup_hooks:
+    - ${execute_sql($delete_sql)}
+    - ${execute_sql($insert_sql)}
+
+
+- test:
+    name: 删除 ---404
+    request:
+      method: DELETE
+      url: /api_2020_05_30_2930/v1/bandcards/$card_id/
+    validate:
+    -eq: [status_code, 404]
+
+
+
+
+

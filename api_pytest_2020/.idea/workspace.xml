@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5f5173e2-0937-42ad-a325-d5c172606016" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1aIEUIjf8doXCvmUo93r5cbS8Y6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Pycharm\api_pytest_2020\api_2020_05_24_2728\k27" />
+      <recent name="E:\Pycharm\api_pytest_2020\api_2020_05_16_2122\k21" />
+      <recent name="E:\Pycharm\api_pytest_2020\api_2020_05_05_1718" />
+      <recent name="E:\Pycharm\api_pytest_2020\PythonLianXi" />
+      <recent name="E:\Pycharm\api_pytest_2020\api_2020_05_04_1516\K15" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Pycharm\api_pytest_2020\api_2020_05_16_2122\k22" />
+      <recent name="E:\Pycharm\api_pytest_2020\api_2020_05_05_1718" />
+      <recent name="E:\Pycharm\api_pytest_2020\api_2020_04_19_1112\k12" />
+      <recent name="E:\Pycharm\api_pytest_2020" />
+      <recent name="E:\Pycharm\api_pytest_2020\api_2020_05_04_1516\K15" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.第四堂课的代码_02">
+    <configuration name="第八堂课的代码_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="api_pytest_2020_3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api_2020_04_12_0708" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api_2020_04_12_0708/第八堂课的代码_01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="第四堂课的代码_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="api_pytest_2020_3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api_2020_04_06_0304" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api_2020_04_06_0304/第四堂课的代码_02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="第八堂课的代码_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="api_pytest_2020_3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api_2020_04_12_0708" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api_2020_04_12_0708/第八堂课的代码_02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="第八堂课的代码_03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="api_pytest_2020_3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api_2020_04_12_0708" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api_2020_04_12_0708/第八堂课的代码_03.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="第八堂课的代码_04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="api_pytest_2020_3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api_2020_04_12_0708" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api_2020_04_12_0708/第八堂课的代码_04.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in E:/Pycharm/api_pytest_2020/ke10/test_get_info.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="api_pytest_2020_3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="E:\Python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/ke10/test_get_info.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_10_02.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="api_pytest_2020_3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="E:\Python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/api_2020_04_18_0910/test_10_02.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.第八堂课的代码_01" />
+      <item itemvalue="Python.第八堂课的代码_03" />
+      <item itemvalue="Python.第八堂课的代码_04" />
+      <item itemvalue="Python.第四堂课的代码_02" />
+      <item itemvalue="Python tests.pytest in test_10_02.py" />
+      <item itemvalue="Python tests.pytest in E:/Pycharm/api_pytest_2020/ke10/test_get_info.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.第四堂课的代码_02" />
+        <item itemvalue="Python.第八堂课的代码_04" />
+        <item itemvalue="Python.第八堂课的代码_03" />
+        <item itemvalue="Python.第八堂课的代码_01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f5173e2-0937-42ad-a325-d5c172606016" name="Default Changelist" comment="" />
+      <created>1586176590442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586176590442</updated>
+      <workItem from="1586176593022" duration="1266000" />
+      <workItem from="1586178060775" duration="1839000" />
+      <workItem from="1586329923727" duration="6763000" />
+      <workItem from="1586414726455" duration="7000" />
+      <workItem from="1586424914602" duration="73000" />
+      <workItem from="1586425044846" duration="8665000" />
+      <workItem from="1586506339326" duration="3055000" />
+      <workItem from="1586577722507" duration="659000" />
+      <workItem from="1586606671365" duration="4265000" />
+      <workItem from="1586681876542" duration="6493000" />
+      <workItem from="1586852020147" duration="19501000" />
+      <workItem from="1587086663930" duration="4217000" />
+      <workItem from="1587177944367" duration="7875000" />
+      <workItem from="1587200969541" duration="60000" />
+      <workItem from="1587211356626" duration="982000" />
+      <workItem from="1587265357518" duration="9619000" />
+      <workItem from="1587277443828" duration="365000" />
+      <workItem from="1587277819473" duration="530000" />
+      <workItem from="1587278360823" duration="297000" />
+      <workItem from="1587278668029" duration="176000" />
+      <workItem from="1587278855396" duration="2963000" />
+      <workItem from="1587283177359" duration="1075000" />
+      <workItem from="1587284468204" duration="912000" />
+      <workItem from="1587285455091" duration="5747000" />
+      <workItem from="1587295668879" duration="273000" />
+      <workItem from="1587297169915" duration="149000" />
+      <workItem from="1587299266444" duration="61000" />
+      <workItem from="1587301666948" duration="2989000" />
+      <workItem from="1587346103785" duration="6515000" />
+      <workItem from="1587384913513" duration="17884000" />
+      <workItem from="1587538993720" duration="4036000" />
+      <workItem from="1587556932758" duration="9947000" />
+      <workItem from="1587690244681" duration="385000" />
+      <workItem from="1587700077320" duration="3132000" />
+      <workItem from="1587817878775" duration="47000" />
+      <workItem from="1587968615234" duration="72000" />
+      <workItem from="1587968831063" duration="1888000" />
+      <workItem from="1587972889298" duration="1737000" />
+      <workItem from="1587987574143" duration="5715000" />
+      <workItem from="1588062441052" duration="1907000" />
+      <workItem from="1588076294997" duration="2067000" />
+      <workItem from="1588164541977" duration="64000" />
+      <workItem from="1588164607542" duration="19000" />
+      <workItem from="1588765404554" duration="8150000" />
+      <workItem from="1588821803892" duration="3033000" />
+      <workItem from="1588853556157" duration="75000" />
+      <workItem from="1588853758421" duration="4666000" />
+      <workItem from="1588939663524" duration="172000" />
+      <workItem from="1588939878333" duration="4433000" />
+      <workItem from="1588945882574" duration="2320000" />
+      <workItem from="1588990506885" duration="776000" />
+      <workItem from="1588995603666" duration="8930000" />
+      <workItem from="1589029373706" duration="1239000" />
+      <workItem from="1589370994324" duration="1099000" />
+      <workItem from="1589372390959" duration="3302000" />
+      <workItem from="1589805076836" duration="10053000" />
+      <workItem from="1589850092836" duration="7096000" />
+      <workItem from="1589889593364" duration="3908000" />
+      <workItem from="1589893521760" duration="960000" />
+      <workItem from="1589894599881" duration="1949000" />
+      <workItem from="1589940580982" duration="5259000" />
+      <workItem from="1590063130273" duration="4727000" />
+      <workItem from="1590154940616" duration="1829000" />
+      <workItem from="1590193731881" duration="9885000" />
+      <workItem from="1590410785319" duration="6577000" />
+      <workItem from="1590488097313" duration="5107000" />
+      <workItem from="1590752209784" duration="188000" />
+      <workItem from="1590893668883" duration="3193000" />
+      <workItem from="1591003831019" duration="1954000" />
+      <workItem from="1591059587944" duration="5944000" />
+      <workItem from="1592051880419" duration="1456000" />
+      <workItem from="1592108292859" duration="1134000" />
+      <workItem from="1592110012429" duration="600000" />
+      <workItem from="1593011649371" duration="1895000" />
+      <workItem from="1594004315847" duration="15649000" />
+      <workItem from="1594716878171" duration="1316000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1412" y="407" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587290320285">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1412" y="407" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1587290320285" />
+    <state x="1600" y="525" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589890014638">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1600" y="525" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1589890014638" />
+    <state x="1687" y="535" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587280591824">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1687" y="535" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1587280591824" />
+    <state x="810" y="416" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588854368004">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="810" y="416" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1588854368004" />
+    <state x="1453" y="447" key="#pytest_03.test_get_info" timestamp="1587279386017">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1453" y="447" key="#pytest_03.test_get_info/0.0.2560.1400@0.0.2560.1400" timestamp="1587279386017" />
+    <state x="1668" y="319" key="#pytest_for_102.test_get_info" timestamp="1587276781267">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1668" y="319" key="#pytest_for_102.test_get_info/0.0.2560.1400@0.0.2560.1400" timestamp="1587276781267" />
+    <state x="1705" y="318" key="#pytest_for_test_第10堂课的代码_02.test_get_info" timestamp="1587290323029">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1705" y="318" key="#pytest_for_test_第10堂课的代码_02.test_get_info/0.0.2560.1400@0.0.2560.1400" timestamp="1587290323029" />
+    <state x="1494" y="326" key="#pytest_for_test_第10堂课的代码_6.test_info_3" timestamp="1587291171996">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1494" y="326" key="#pytest_for_test_第10堂课的代码_6.test_info_3/0.0.2560.1400@0.0.2560.1400" timestamp="1587291171996" />
+    <state x="1705" y="318" key="#pytest_for_test_第10堂课的代码_6.test_info_4" timestamp="1587290559049">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1705" y="318" key="#pytest_for_test_第10堂课的代码_6.test_info_4/0.0.2560.1400@0.0.2560.1400" timestamp="1587290559049" />
+    <state x="1687" y="319" key="#pytest_for_第10堂课的代码_02.test_get_info" timestamp="1587288786638">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1687" y="319" key="#pytest_for_第10堂课的代码_02.test_get_info/0.0.2560.1400@0.0.2560.1400" timestamp="1587288786638" />
+    <state x="1453" y="447" key="#pytest_for_第10堂课的代码_03.test_get_info" timestamp="1587279383165">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1453" y="447" key="#pytest_for_第10堂课的代码_03.test_get_info/0.0.2560.1400@0.0.2560.1400" timestamp="1587279383165" />
+    <state x="988" y="316" key="#pytest_for_第10堂课的代码_04.TestInfo.test_get_info_3" timestamp="1587348794768">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="988" y="316" key="#pytest_for_第10堂课的代码_04.TestInfo.test_get_info_3/0.0.2560.1400@0.0.2560.1400" timestamp="1587348794768" />
+    <state x="988" y="316" key="#pytest_for_第三堂课的代码_01.test_1" timestamp="1587284610810">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="988" y="316" key="#pytest_for_第三堂课的代码_01.test_1/0.0.2560.1400@0.0.2560.1400" timestamp="1587284610810" />
+    <state x="-1252" y="151" key="#pytest_for_第六堂课的代码_02.test_qq_2" timestamp="1594006711193">
+      <screen x="-1920" y="15" width="1920" height="1040" />
+    </state>
+    <state x="-1252" y="151" key="#pytest_for_第六堂课的代码_02.test_qq_2/0.0.2560.1400/-1920.15.1920.1040@-1920.15.1920.1040" timestamp="1594006711193" />
+    <state x="1705" y="330" key="#pytest_in_test_info_demo.py" timestamp="1587280607886">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1705" y="330" key="#pytest_in_test_info_demo.py/0.0.2560.1400@0.0.2560.1400" timestamp="1587280607886" />
+    <state x="988" y="316" key="#第三堂课的代码_01.test_1" timestamp="1587284616850">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="988" y="316" key="#第三堂课的代码_01.test_1/0.0.2560.1400@0.0.2560.1400" timestamp="1587284616850" />
+    <state x="-715" y="343" key="FileChooserDialogImpl" timestamp="1590752395514">
+      <screen x="-1920" y="15" width="1920" height="1040" />
+    </state>
+    <state x="-715" y="343" key="FileChooserDialogImpl/0.0.2560.1400/-1920.15.1920.1040@-1920.15.1920.1040" timestamp="1590752395514" />
+    <state x="1679" y="663" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1588164624819" />
+    <state width="1877" height="344" key="GridCell.Tab.0.bottom" timestamp="1594035531451">
+      <screen x="-1920" y="15" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="344" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.15.1920.1040@-1920.15.1920.1040" timestamp="1594035531451" />
+    <state width="1510" height="561" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1590156273821" />
+    <state width="1877" height="344" key="GridCell.Tab.0.center" timestamp="1594035531451">
+      <screen x="-1920" y="15" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="344" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.15.1920.1040@-1920.15.1920.1040" timestamp="1594035531451" />
+    <state width="1510" height="561" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1590156273821" />
+    <state width="1877" height="344" key="GridCell.Tab.0.left" timestamp="1594035531451">
+      <screen x="-1920" y="15" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="344" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.15.1920.1040@-1920.15.1920.1040" timestamp="1594035531451" />
+    <state width="1510" height="561" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1590156273821" />
+    <state width="1877" height="344" key="GridCell.Tab.0.right" timestamp="1594035531451">
+      <screen x="-1920" y="15" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="344" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.15.1920.1040@-1920.15.1920.1040" timestamp="1594035531451" />
+    <state width="1510" height="561" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1590156273821" />
+    <state width="1877" height="344" key="GridCell.Tab.1.bottom" timestamp="1594035531452">
+      <screen x="-1920" y="15" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="344" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.15.1920.1040@-1920.15.1920.1040" timestamp="1594035531452" />
+    <state width="2517" height="487" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589896551524" />
+    <state width="1877" height="344" key="GridCell.Tab.1.center" timestamp="1594035531452">
+      <screen x="-1920" y="15" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="344" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.15.1920.1040@-1920.15.1920.1040" timestamp="1594035531452" />
+    <state width="2517" height="487" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589896551524" />
+    <state width="1877" height="344" key="GridCell.Tab.1.left" timestamp="1594035531452">
+      <screen x="-1920" y="15" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="344" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.15.1920.1040@-1920.15.1920.1040" timestamp="1594035531452" />
+    <state width="2517" height="487" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589896551524" />
+    <state width="1877" height="344" key="GridCell.Tab.1.right" timestamp="1594035531452">
+      <screen x="-1920" y="15" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="344" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.15.1920.1040@-1920.15.1920.1040" timestamp="1594035531452" />
+    <state width="2517" height="487" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589896551524" />
+    <state width="2517" height="487" key="GridCell.Tab.2.bottom" timestamp="1589896551525">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="487" key="GridCell.Tab.2.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589896551525" />
+    <state width="2517" height="487" key="GridCell.Tab.2.center" timestamp="1589896551524">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="487" key="GridCell.Tab.2.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589896551524" />
+    <state width="2517" height="487" key="GridCell.Tab.2.left" timestamp="1589896551524">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="487" key="GridCell.Tab.2.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589896551524" />
+    <state width="2517" height="487" key="GridCell.Tab.2.right" timestamp="1589896551524">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="487" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589896551524" />
+    <state x="-1249" y="179" key="SettingsEditor" timestamp="1590901568812">
+      <screen x="-1920" y="15" width="1920" height="1040" />
+    </state>
+    <state x="-1249" y="179" key="SettingsEditor/0.0.2560.1400/-1920.15.1920.1040@-1920.15.1920.1040" timestamp="1590901568812" />
+    <state x="1286" y="331" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1589894883250" />
+    <state x="-1200" y="404" key="com.intellij.ide.util.TipDialog" timestamp="1594716928412">
+      <screen x="-1920" y="15" width="1920" height="1040" />
+    </state>
+    <state x="-1200" y="404" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1920.15.1920.1040@-1920.15.1920.1040" timestamp="1594716928412" />
+    <state x="960" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1920.15.1920.1040@0.0.2560.1400" timestamp="1590488097477" />
+    <state x="960" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1590193734753" />
+    <state x="956" y="299" width="647" height="801" key="find.popup" timestamp="1588852813466">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="956" y="299" width="647" height="801" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1588852813466" />
+    <state x="-893" y="366" width="672" height="504" key="search.everywhere.popup" timestamp="1590901736636">
+      <screen x="-1920" y="15" width="1920" height="1040" />
+    </state>
+    <state x="-893" y="366" width="672" height="504" key="search.everywhere.popup/0.0.2560.1400/-1920.15.1920.1040@-1920.15.1920.1040" timestamp="1590901736636" />
+    <state x="1369" y="472" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1589814065659" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_api_10_02_py.coverage" NAME="pytest in api_10_02.py Coverage Results" MODIFIED="1587279313817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$a2__1_.coverage" NAME="a2 (1) Coverage Results" MODIFIED="1588854208516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_05_04_1516" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in__01_py.coverage" NAME="pytest in 第三堂课的代码_01.py Coverage Results" MODIFIED="1587285132823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_06_0304" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$_05.coverage" NAME="第七堂课的代码_05 Coverage Results" MODIFIED="1594020098549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_12_0708" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$api_10_01.coverage" NAME="api_10_01 Coverage Results" MODIFIED="1587542006578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$a6.coverage" NAME="a6 Coverage Results" MODIFIED="1588075382922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_25_1314" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_for_test_10_6_test_info_2.coverage" NAME="pytest for test_10_6.test_info_2 Coverage Results" MODIFIED="1587387432294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_10_04_py.coverage" NAME="pytest in 第10堂课的代码_04.py Coverage Results" MODIFIED="1587348801979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_10_02_py.coverage" NAME="pytest in test_api_10_02.py Coverage Results" MODIFIED="1587277367495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_10_03_py.coverage" NAME="pytest in 第10堂课的代码_03.py Coverage Results" MODIFIED="1587348301638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_for_test_regiter_test_register_1.coverage" NAME="pytest for test_regiter.test_register_1 Coverage Results" MODIFIED="1587647149882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_19_1112/k12" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$api_10_01__1_.coverage" NAME="api_10_01 (1) Coverage Results" MODIFIED="1587277118756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$a.coverage" NAME="a Coverage Results" MODIFIED="1588855659982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/悠悠老师/课程代码_2020/第15-16课/ke16" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$_01_test_1.coverage" NAME="第三堂课的代码_01.test_1 Coverage Results" MODIFIED="1587284617979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_06_0304" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_for_test_10_6_test_info_3.coverage" NAME="pytest for test_10_6.test_info_3 Coverage Results" MODIFIED="1587291189251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$debugtalk.coverage" NAME="debugtalk Coverage Results" MODIFIED="1590410954319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_05_16_2122/k22" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$common_fuctions__1_.coverage" NAME="common_fuctions (1) Coverage Results" MODIFIED="1587278404610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke10" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$_06.coverage" NAME="第七堂课的代码_06 Coverage Results" MODIFIED="1594020608576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_12_0708" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$sd1.coverage" NAME="sd1 Coverage Results" MODIFIED="1593013267015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$qq.coverage" NAME="qq Coverage Results" MODIFIED="1586682302826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/悠悠老师/课程代码_2020/ke6" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$a1.coverage" NAME="a1 Coverage Results" MODIFIED="1589806549002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_05_16_2122/k21" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_for_test_02_test_add011.coverage" NAME="pytest for test_02.test_add011 Coverage Results" MODIFIED="1588940703927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_05_04_1516/K15" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_for_test_teacher_test_add_teacher.coverage" NAME="pytest for test_teacher.test_add_teacher Coverage Results" MODIFIED="1588948032803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke16" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$test_info_params.coverage" NAME="test_info_params Coverage Results" MODIFIED="1587471797965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/悠悠老师/课程代码_2020/第11-12课代码/ke11" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020_3$_01.coverage" NAME="第三堂课的代码_01 Coverage Results" MODIFIED="1586348444812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2020_04_05_03" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$10_01.coverage" NAME="第10堂课的代码_01 Coverage Results" MODIFIED="1587347340467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$09_02.coverage" NAME="第09堂课的代码_02 Coverage Results" MODIFIED="1587346204525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$09_05.coverage" NAME="第09堂课的代码_05 Coverage Results" MODIFIED="1587346973610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$test_get_info.coverage" NAME="test_get_info Coverage Results" MODIFIED="1587279309545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke10" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$Nosetests_for_test_api_10_02_test_get_info.coverage" NAME="Nosetests for test_api_10_02.test_get_info Coverage Results" MODIFIED="1587278961957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_test_11_1_py.coverage" NAME="pytest in test_11_1.py Coverage Results" MODIFIED="1587386314622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_19_1112" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_test_11_2_py.coverage" NAME="pytest in test_11_2.py Coverage Results" MODIFIED="1587388303613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_19_1112" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$a33.coverage" NAME="a33 Coverage Results" MODIFIED="1589374895125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$read_demo.coverage" NAME="read_demo Coverage Results" MODIFIED="1590065827127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_05_16_2122/k22" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_test_updat_info_py.coverage" NAME="pytest in test_updat_info.py Coverage Results" MODIFIED="1587279426124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke10" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_test_10_7_py.coverage" NAME="pytest in test_10_7.py Coverage Results" MODIFIED="1587541598615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$_03.coverage" NAME="第八堂课的代码_03 Coverage Results" MODIFIED="1594025768700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_12_0708" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$connet_mysql.coverage" NAME="connet_mysql Coverage Results" MODIFIED="1590411061113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_19_1112/k12" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_test_10_6_py.coverage" NAME="pytest in test_10_6.py Coverage Results" MODIFIED="1587390016909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_test_10_7_py__1_.coverage" NAME="pytest in test_10_7.py (1) Coverage Results" MODIFIED="1587390119378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_19_1112" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1588948196696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_05_04_1516/K15" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_test_info_demo_py.coverage" NAME="pytest in test_info_d.py Coverage Results" MODIFIED="1587281670801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_test_invert_py.coverage" NAME="pytest in test_invert.py Coverage Results" MODIFIED="1587281741629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLianXi/TestCases" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$read_yaml.coverage" NAME="read_yaml Coverage Results" MODIFIED="1591098558620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_19_1112/k11" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_test_get_info_py.coverage" NAME="pytest in test_get_info.py Coverage Results" MODIFIED="1587283658869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020_3$_03.coverage" NAME="第三堂课的代码_03 Coverage Results" MODIFIED="1586402466655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2020_04_05_03" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$common_fuctions.coverage" NAME="common_fuctions Coverage Results" MODIFIED="1587279263514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke10" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$a4.coverage" NAME="a4 Coverage Results" MODIFIED="1587993223889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_25_1314" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$c.coverage" NAME="c Coverage Results" MODIFIED="1588941381608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_05_04_1516/k16" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_for_test_11_3_test_info_1.coverage" NAME="pytest for test_11_3.test_info_1 Coverage Results" MODIFIED="1587388422946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_19_1112" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in__03_py.coverage" NAME="pytest in 第六堂课的代码_03.py Coverage Results" MODIFIED="1594006881305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_11_0506" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in__02_py.coverage" NAME="pytest in 第六堂课的代码_02.py Coverage Results" MODIFIED="1594006911942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_11_0506" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$connect_mysql.coverage" NAME="connect_mysql Coverage Results" MODIFIED="1590412000588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_05_24_2728" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$token_info.coverage" NAME="token_info Coverage Results" MODIFIED="1587039740464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/悠悠老师/课程代码_2020/第7-8课/ke7" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$a3.coverage" NAME="a3 Coverage Results" MODIFIED="1587992022386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_25_1314" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$_02.coverage" NAME="第四堂课的代码_02 Coverage Results" MODIFIED="1594029387373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_06_0304" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_for_test_api_10_02_test_get_info.coverage" NAME="pytest for test_api_10_02.test_get_info Coverage Results" MODIFIED="1587285465125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$j1.coverage" NAME="j1 Coverage Results" MODIFIED="1587700598842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$a123.coverage" NAME="a123 Coverage Results" MODIFIED="1588821860717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$09_03.coverage" NAME="第09堂课的代码_03 Coverage Results" MODIFIED="1587346350520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$webscoket_ceshi1.coverage" NAME="webscoket_ceshi1 Coverage Results" MODIFIED="1590901739392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/websocket_ceshi" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$d.coverage" NAME="d Coverage Results" MODIFIED="1589810952671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_05_16_2122/k21" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_for_test_info_params_test_2.coverage" NAME="pytest for test_info_params.test_2 Coverage Results" MODIFIED="1587388892583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke11" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$python04.coverage" NAME="python04 Coverage Results" MODIFIED="1586780332186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2020_04_12_0708" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$Nosetests_in_test_api_10_02_py.coverage" NAME="Nosetests in test_api_10_02.py Coverage Results" MODIFIED="1587278725869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_for_test_10_02_test_get_info.coverage" NAME="pytest for test_10_02.test_get_info Coverage Results" MODIFIED="1587389939673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$a2.coverage" NAME="a2 Coverage Results" MODIFIED="1588949320724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_05_04_1516/K15" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$e.coverage" NAME="e Coverage Results" MODIFIED="1586958741020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/悠悠老师/课程代码_2020/第7-8课/ke7" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_for_test_11_3_test_info_8.coverage" NAME="pytest for test_11_3.test_info_8 Coverage Results" MODIFIED="1587389783273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_19_1112" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_for_api_10_02_test_get_info.coverage" NAME="pytest for api_10_02.test_get_info Coverage Results" MODIFIED="1587279322511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_test_02_py.coverage" NAME="pytest in test_02.py Coverage Results" MODIFIED="1588940788723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_05_04_1516/K15" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_for_test_info_d_test_info_1.coverage" NAME="pytest for test_info_d.test_info_1 Coverage Results" MODIFIED="1587281663347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020_3$a_1.coverage" NAME="a_1 Coverage Results" MODIFIED="1586176811962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/k3" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$09_04.coverage" NAME="第09堂课的代码_04 Coverage Results" MODIFIED="1587346506521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_test_01_py__1_.coverage" NAME="pytest in test_01.py Coverage Results" MODIFIED="1588857959330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_05_04_1516/K15" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_for_test_01_test_add_tupain_wenjian.coverage" NAME="pytest for test_01.test_add_tupain_wenjian Coverage Results" MODIFIED="1588943240008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_05_04_1516/K15" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$2020_04_13____1_.coverage" NAME="2020_04_13作业_列表倒序然后反正正序取值,切片取值 (1) Coverage Results" MODIFIED="1586852363337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_test_11_3_py.coverage" NAME="pytest in test_11_3.py Coverage Results" MODIFIED="1587557006475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_19_1112" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_09_06_py.coverage" NAME="pytest in 第09堂课的代码_06.py Coverage Results" MODIFIED="1587346999293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$_01.coverage" NAME="第八堂课的代码_01 Coverage Results" MODIFIED="1594023925848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_12_0708" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_test_001_login_py.coverage" NAME="pytest in test_001_login.py Coverage Results" MODIFIED="1587298959635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLianXi/TestCases" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$read_yaml__1_.coverage" NAME="read_yaml (1) Coverage Results" MODIFIED="1587477656093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_19_1112" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$a1__1_.coverage" NAME="a1 (1) Coverage Results" MODIFIED="1588854007408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_05_04_1516" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_for_test_10_6_test_info_1.coverage" NAME="pytest for test_10_6.test_info_1 Coverage Results" MODIFIED="1587292399388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$api_10_02_py.coverage" NAME="api_10_02.py Coverage Results" MODIFIED="1587277865724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$api_10_02.coverage" NAME="api_10_02 Coverage Results" MODIFIED="1587279557736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_test_info_d_py.coverage" NAME="pytest in test_10_6.py Coverage Results" MODIFIED="1587291497436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_18_0910" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_test_x_py.coverage" NAME="pytest in test_x.py Coverage Results" MODIFIED="1588996087193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_05_05_1718/ke17" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$common_fuction.coverage" NAME="common_fuction Coverage Results" MODIFIED="1587644559670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_19_1112/k12" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_test_01_py.coverage" NAME="pytest in test_01.py Coverage Results" MODIFIED="1588949333035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_05_04_1516/K15" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$a5.coverage" NAME="a5 Coverage Results" MODIFIED="1587993878220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_25_1314" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_for_test_11_3_test_info_2.coverage" NAME="pytest for test_11_3.test_info_2 Coverage Results" MODIFIED="1587387371947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_19_1112" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$a2__2_.coverage" NAME="a2 (2) Coverage Results" MODIFIED="1588940670384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_05_04_1516/K15" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$c__1_.coverage" NAME="c (1) Coverage Results" MODIFIED="1588942818002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_05_04_1516/K15" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_for_test_get_info_test_get_info.coverage" NAME="pytest for test_get_info.test_get_info Coverage Results" MODIFIED="1587284485926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke10" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$b.coverage" NAME="b Coverage Results" MODIFIED="1588856597036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_05_04_1516/k16" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_for_test_regiter_test_register_2.coverage" NAME="pytest for test_regiter.test_register_2 Coverage Results" MODIFIED="1587647088826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_19_1112/k12" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_in_test_regiter_py.coverage" NAME="pytest in test_regiter.py Coverage Results" MODIFIED="1587721478447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_19_1112/k12" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$_04.coverage" NAME="第八堂课的代码_04 Coverage Results" MODIFIED="1594027597284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_12_0708" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$test_qq.coverage" NAME="test_qq Coverage Results" MODIFIED="1586686533737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/悠悠老师/课程代码_2020/ke6" />
+    <SUITE FILE_PATH="coverage/api_pytest_2020$pytest_for_test_11_3_test_1.coverage" NAME="pytest for test_11_3.test_1 Coverage Results" MODIFIED="1587387331886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_2020_04_19_1112" />
+  </component>
+</project>

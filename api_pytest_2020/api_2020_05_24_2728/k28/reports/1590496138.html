@@ -1,0 +1,681 @@
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> - TestReport</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      color: #333;
+      margin: 0 auto;
+      width: 960px;
+    }
+    #summary {
+      width: 960px;
+      margin-bottom: 20px;
+    }
+    #summary th {
+      background-color: skyblue;
+      padding: 5px 12px;
+    }
+    #summary td {
+      background-color: lightblue;
+      text-align: center;
+      padding: 4px 8px;
+    }
+    .details {
+      width: 960px;
+      margin-bottom: 20px;
+    }
+    .details th {
+      background-color: skyblue;
+      padding: 5px 12px;
+    }
+    .details tr .passed {
+      background-color: lightgreen;
+    }
+    .details tr .failed {
+      background-color: red;
+    }
+    .details tr .unchecked {
+      background-color: gray;
+    }
+    .details td {
+      background-color: lightblue;
+      padding: 5px 12px;
+    }
+    .details .detail {
+      background-color: lightgrey;
+      font-size: smaller;
+      padding: 5px 10px;
+      text-align: center;
+    }
+    .details .success {
+      background-color: greenyellow;
+    }
+    .details .error {
+      background-color: red;
+    }
+    .details .failure {
+      background-color: salmon;
+    }
+    .details .skipped {
+      background-color: gray;
+    }
+
+    .button {
+      font-size: 1em;
+      padding: 6px;
+      width: 4em;
+      text-align: center;
+      background-color: #06d85f;
+      border-radius: 20px/50px;
+      cursor: pointer;
+      transition: all 0.3s ease-out;
+    }
+    a.button{
+      color: gray;
+      text-decoration: none;
+    }
+    .button:hover {
+      background: #2cffbd;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7);
+      transition: opacity 500ms;
+      visibility: hidden;
+      opacity: 0;
+    }
+    .overlay:target {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .popup {
+      margin: 70px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      width: 50%;
+      position: relative;
+      transition: all 3s ease-in-out;
+    }
+
+    .popup h2 {
+      margin-top: 0;
+      color: #333;
+      font-family: Tahoma, Arial, sans-serif;
+    }
+    .popup .close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      transition: all 200ms;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #333;
+    }
+    .popup .close:hover {
+      color: #06d85f;
+    }
+    .popup .content {
+      max-height: 80%;
+      overflow: auto;
+      text-align: left;
+    }
+
+    @media screen and (max-width: 700px) {
+      .box {
+        width: 70%;
+      }
+      .popup {
+        width: 70%;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Test Report: </h1>
+
+  <h2>Summary</h2>
+  <table id="summary">
+
+    <tr>
+      <th>START AT</th>
+      <td colspan="4">2020-05-26 20:28:58</td>
+    </tr>
+    <tr>
+      <th>DURATION</th>
+      <td colspan="4">0.104 seconds</td>
+    </tr>
+    <tr>
+      <th>PLATFORM</th>
+      <td>HttpRunner 1.5.8 </td>
+      <td>CPython 3.8.1 </td>
+      <td colspan="2">Windows-10-10.0.18362-SP0</td>
+    </tr>
+    <tr>
+      <th>TOTAL</th>
+      <th>SUCCESS</th>
+      <th>FAILED</th>
+      <th>ERROR</th>
+      <th>SKIPPED</th>
+      <!-- <th>ExpectedFailure</th>
+      <th>UnexpectedSuccess</th> -->
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <!-- <td>0</td>
+      <td>0</td> -->
+    </tr>
+  </table>
+
+  <h2>Details</h2>
+
+  
+  
+  <h3>Web网站登录</h3>
+  <table id="suite_1" class="details">
+    <tr>
+      <th>base_url</th>
+      <td colspan="2">http://49.235.92.12:6009</td>
+      <th colspan="2" class="detail">
+        <a class="button" href="#suite_output_1">parameters & output</a>
+        <div id="suite_output_1" class="overlay">
+            <div class="popup">
+                <h2>Parameters and Output</h2>
+                <a class="close" href="#suite_1">&times;</a>
+                <div class="content">
+                  <div style="overflow: auto">
+                      <table>
+                        <tr>
+                          <th>variables</th>
+                          <th>output</th>
+                        </tr>
+                        
+                      </table>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>TOTAL: 1</td>
+      <td>SUCCESS: 1</td>
+      <td>FAILED: 0</td>
+      <td>ERROR: 0</td>
+      <td>SKIPPED: 0</td>
+    </tr>
+    <tr>
+      <th>Status</th>
+      <th colspan="2">Name</th>
+      <th>Response Time</th>
+      <th>Detail</th>
+    </tr>
+
+    
+    
+    <tr id="record_1_1">
+      <th class="success" style="width:5em;">success</td>
+      <td colspan="2">web登录---get</td>
+      <td style="text-align:center;width:6em;">98.02 ms</td>
+      <td class="detail">
+
+        <a class="button" href="#popup_log_1_1">log</a>
+        <div id="popup_log_1_1" class="overlay">
+          <div class="popup">
+            <h2>Request and Response data</h2>
+            <a class="close" href="#record_1_1">&times;</a>
+
+            <div class="content">
+              <h3>Request:</h3>
+              <div style="overflow: auto">
+                <table>
+                  
+                    <tr>
+                      <th>url</th>
+                      <td>
+                        
+                          http://49.235.92.12:6009/admin/login/
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>method</th>
+                      <td>
+                        
+                          GET
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>headers</th>
+                      <td>
+                        
+                          
+                          <div>
+                            <strong>User-Agent</strong>: python-requests/2.22.0
+                          </div>
+                          
+                          <div>
+                            <strong>Accept-Encoding</strong>: gzip, deflate
+                          </div>
+                          
+                          <div>
+                            <strong>Accept</strong>: */*
+                          </div>
+                          
+                          <div>
+                            <strong>Connection</strong>: keep-alive
+                          </div>
+                          
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>start_timestamp</th>
+                      <td>
+                        
+                          1590496138.8173025
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>body</th>
+                      <td>
+                        
+                          None
+                        
+                      </td>
+                    </tr>
+                  
+                </table>
+              </div>
+
+              <h3>Response:</h3>
+              <div style="overflow: auto">
+                <table>
+                    
+                      <tr>
+                        <th>status_code</th>
+                        <td>
+                          
+                            200
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>headers</th>
+                        <td>
+                          
+                            
+                            <div>
+                              <strong>User-Agent</strong>: python-requests/2.22.0
+                            </div>
+                            
+                            <div>
+                              <strong>Accept-Encoding</strong>: gzip, deflate
+                            </div>
+                            
+                            <div>
+                              <strong>Accept</strong>: */*
+                            </div>
+                            
+                            <div>
+                              <strong>Connection</strong>: keep-alive
+                            </div>
+                            
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>content_size</th>
+                        <td>
+                          
+                            1842
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>response_time_ms</th>
+                        <td>
+                          
+                            98.02
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>elapsed_ms</th>
+                        <td>
+                          
+                            95.001
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>encoding</th>
+                        <td>
+                          
+                            utf-8
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>content</th>
+                        <td>
+                          
+                            &lt;!DOCTYPE html&gt;
+
+&lt;html lang=&#34;en-us&#34; &gt;
+&lt;head&gt;
+&lt;title&gt;Log in | Django site admin&lt;/title&gt;
+&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;/static/admin/css/base.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;/static/admin/css/login.css&#34; /&gt;
+
+
+
+
+
+    &lt;meta name=&#34;viewport&#34; content=&#34;user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0&#34;&gt;
+    &lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;/static/admin/css/responsive.css&#34; /&gt;
+    
+
+&lt;meta name=&#34;robots&#34; content=&#34;NONE,NOARCHIVE&#34; /&gt;
+&lt;/head&gt;
+
+
+&lt;body class=&#34; login&#34;
+  data-admin-utc-offset=&#34;0&#34;&gt;
+
+&lt;!-- Container --&gt;
+&lt;div id=&#34;container&#34;&gt;
+
+    
+    &lt;!-- Header --&gt;
+    &lt;div id=&#34;header&#34;&gt;
+        &lt;div id=&#34;branding&#34;&gt;
+        
+&lt;h1 id=&#34;site-name&#34;&gt;&lt;a href=&#34;/admin/&#34;&gt;Django administration&lt;/a&gt;&lt;/h1&gt;
+
+        &lt;/div&gt;
+        
+        
+    &lt;/div&gt;
+    &lt;!-- END Header --&gt;
+    
+    
+
+    
+        
+    
+
+    &lt;!-- Content --&gt;
+    &lt;div id=&#34;content&#34; class=&#34;colM&#34;&gt;
+        
+        
+        
+
+
+
+
+&lt;div id=&#34;content-main&#34;&gt;
+
+
+
+&lt;form action=&#34;/admin/login/&#34; method=&#34;post&#34; id=&#34;login-form&#34;&gt;&lt;input type=&#39;hidden&#39; name=&#39;csrfmiddlewaretoken&#39; value=&#39;nI7qBZRgFS62PEs0EHvHcKlzV0jHRUPLBRMSRabp6pu76rAkm09ztnRBKFefe8Or&#39; /&gt;
+  &lt;div class=&#34;form-row&#34;&gt;
+    
+    &lt;label class=&#34;required&#34; for=&#34;id_username&#34;&gt;Username:&lt;/label&gt; &lt;input type=&#34;text&#34; name=&#34;username&#34; autofocus maxlength=&#34;254&#34; required id=&#34;id_username&#34; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;form-row&#34;&gt;
+    
+    &lt;label class=&#34;required&#34; for=&#34;id_password&#34;&gt;Password:&lt;/label&gt; &lt;input type=&#34;password&#34; name=&#34;password&#34; required id=&#34;id_password&#34; /&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;next&#34; value=&#34;/admin/&#34; /&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;div class=&#34;submit-row&#34;&gt;
+    &lt;label&gt;&amp;nbsp;&lt;/label&gt;&lt;input type=&#34;submit&#34; value=&#34;Log in&#34; /&gt;
+  &lt;/div&gt;
+&lt;/form&gt;
+
+&lt;/div&gt;
+
+        
+        &lt;br class=&#34;clear&#34; /&gt;
+    &lt;/div&gt;
+    &lt;!-- END Content --&gt;
+
+    &lt;div id=&#34;footer&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- END Container --&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>content_type</th>
+                        <td>
+                          
+                            
+                              <pre></pre>
+                            
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>ok</th>
+                        <td>
+                          
+                            True
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>url</th>
+                        <td>
+                          
+                            http://49.235.92.12:6009/admin/login/
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>reason</th>
+                        <td>
+                          
+                            OK
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>cookies</th>
+                        <td>
+                          
+                            <RequestsCookieJar[<Cookie csrftoken=ZjwR5ZUSycDI4DU9Oz90ddxYYj0ZTE2Edsbjlae1ZJ1Nlq2twSNSuQ30NYVxgS1k for 49.235.92.12/>]>
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>text</th>
+                        <td>
+                          
+                            <!DOCTYPE html>
+
+<html lang="en-us" >
+<head>
+<title>Log in | Django site admin</title>
+<link rel="stylesheet" type="text/css" href="/static/admin/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/static/admin/css/login.css" />
+
+
+
+
+
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/responsive.css" />
+    
+
+<meta name="robots" content="NONE,NOARCHIVE" />
+</head>
+
+
+<body class=" login"
+  data-admin-utc-offset="0">
+
+<!-- Container -->
+<div id="container">
+
+    
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+        
+<h1 id="site-name"><a href="/admin/">Django administration</a></h1>
+
+        </div>
+        
+        
+    </div>
+    <!-- END Header -->
+    
+    
+
+    
+        
+    
+
+    <!-- Content -->
+    <div id="content" class="colM">
+        
+        
+        
+
+
+
+
+<div id="content-main">
+
+
+
+<form action="/admin/login/" method="post" id="login-form"><input type='hidden' name='csrfmiddlewaretoken' value='nI7qBZRgFS62PEs0EHvHcKlzV0jHRUPLBRMSRabp6pu76rAkm09ztnRBKFefe8Or' />
+  <div class="form-row">
+    
+    <label class="required" for="id_username">Username:</label> <input type="text" name="username" autofocus maxlength="254" required id="id_username" />
+  </div>
+  <div class="form-row">
+    
+    <label class="required" for="id_password">Password:</label> <input type="password" name="password" required id="id_password" />
+    <input type="hidden" name="next" value="/admin/" />
+  </div>
+  
+  
+  <div class="submit-row">
+    <label>&nbsp;</label><input type="submit" value="Log in" />
+  </div>
+</form>
+
+</div>
+
+        
+        <br class="clear" />
+    </div>
+    <!-- END Content -->
+
+    <div id="footer"></div>
+</div>
+<!-- END Container -->
+
+</body>
+</html>
+
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>json</th>
+                        <td>
+                          
+                            None
+                          
+                        </td>
+                      </tr>
+                    
+                  </table>
+              </div>
+
+              <h3>Validators:</h3>
+              <div style="overflow: auto">
+                  <table>
+                    <tr>
+                      <th>check</th>
+                      <th>comparator</th>
+                      <th>expect value</th>
+                      <th>actual value</th>
+                    </tr>
+                    
+                  </table>
+              </div>
+
+              <h3>Statistics:</h3>
+              <div style="overflow: auto">
+                <table>
+                  <tr>
+                      <th>content_size(bytes)</th>
+                      <td>1842</td>
+                    </tr>
+                  <tr>
+                    <th>response_time(ms)</th>
+                    <td>98.02</td>
+                  </tr>
+                  <tr>
+                    <th>elapsed(ms)</th>
+                    <td>95.001</td>
+                  </tr>
+                </table>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        
+
+      </td>
+    </tr>
+  
+  </table>
+  
+</body>

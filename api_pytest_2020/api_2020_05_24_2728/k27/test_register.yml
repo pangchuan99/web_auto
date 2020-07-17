@@ -1,0 +1,51 @@
+
+
+
+
+- config:
+    name: 注册案例
+    request:
+      base_url: http://49.235.92.12:6009
+    variables:
+      delete_sql: DELETE FROM auth_user WHERE username="testpc1"
+
+
+
+- test:
+    name: 注册用例
+    variables:
+      delete_sql: DELETE FROM auth_user WHERE username="testpc1"
+    request:
+      method: POST
+      url: /api_2020_05_30_2930/v1/register
+      json:
+        username: testpc1
+        password: "123456"
+        mail: test333@qq.com
+
+
+    validate:
+    - eq: [status_code,200]
+    - eq: [content.msg,注册成功!]
+
+    setup_hooks:
+    - ${execute_sql($delete_sql)}
+
+
+
+
+- test:
+    name: 注册用例---testpc1用户已被注册
+    request:
+      method: POST
+      url: /api_2020_05_30_2930/v1/register
+      json:
+        username: testpc1
+        password: "123456"
+        mail: test333@qq.com
+
+
+    validate:
+    - eq: [status_code,200]
+    - eq: [content.msg,testpc1用户已被注册]
+

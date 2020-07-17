@@ -1,0 +1,24 @@
+- config:
+   name: 获取个人信息
+   request:
+     base_url: http://49.235.92.12:6009
+    #全局变量
+   variables:
+     user: test1
+     psw: "123456"
+
+
+- test:
+    name: 关联登陆，获取个人信息
+    request:
+      url: /api_2020_05_30_2930/v1/userinfo
+      method: GET
+      headers:
+        #直接引用就行了  $tokenx
+        Authorization: Token ${get_token($user,$psw)}
+    validate:
+    - eq: [status_code, 200]
+    - eq: [content.msg, sucess!]
+    - eq: [content.data.0.name, $user]
+
+
