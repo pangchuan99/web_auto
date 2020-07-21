@@ -22,7 +22,8 @@ else:
     chrome_options.add_argument('--headless')  # 无界面
 
     # _driver = webdriver.Chrome()
-    driver = webdriver.Chrome(chrome_options=chrome_options)
+    # driver = webdriver.Chrome(chrome_options=chrome_options)
+    driver = webdriver.Chrome(options=chrome_options)
 driver.get("https://www.cnblogs.com/yoyoketang/")
 time.sleep(5)
 print(driver.title)
