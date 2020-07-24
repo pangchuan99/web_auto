@@ -1,11 +1,6 @@
 
 from selenium import webdriver
-from PageObjects.login_page import LoginPage #元素定位页面
 
-from PageObjects.index_page import IndexPage #首页页面
-from TestDatas import Common_Datas  as CD    #地址
-from TestDatas import login_datas   as  LD   #登录数据
-from PageObjects.bid_page import Bidpage
 import pytest
 
 @pytest.mark.usefixtures("access_web")  # 在运行的时候，回去运行access_web函数

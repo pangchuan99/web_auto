@@ -7,7 +7,7 @@ from selenium.webdriver.support.wait import WebDriverWait        #显示等待�
                                 # 2.元素可见 visibility_of_element_located
 from selenium.webdriver.support import expected_conditions as EC
 from  selenium.webdriver.common.by import By                     #八大元素
-from Pagelocators.loginpage_locators import LoginPageLocator  as loc
+
 from selenium.webdriver.common.action_chains import ActionChains #鼠标事件
 
 #这个是页面的元素定位，那么另一个网页就是元素的操作（要分离彻底）

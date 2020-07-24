@@ -1,9 +1,7 @@
 
 
 from selenium import webdriver
-from PageObjects.login_page import LoginPage #元素定位页面
-from PageObjects.bid_page import Bidpage
-from TestDatas import Common_Datas  as CD    #地址
+
 import pytest
 
 
